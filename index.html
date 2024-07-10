@@ -10,6 +10,11 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+     <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -117,7 +122,7 @@
         </div>
         <!-- slider Area End-->
         <!--? our info Start -->
-        <div class="our-info-area pt-170 pb-100 section-bg" data-background="assets/img/gallery/section_bg02.jpg">
+        <div class="our-info-area pt-170 pb-100 section-bg " data-background="assets/img/gallery/section_bg02.jpg">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
@@ -170,7 +175,278 @@
         </div>
         <!-- Professional Services End -->
         <!-- our info End -->
-        <!--? Services Ara Start -->
+
+
+        <style>
+            /* Basic reset and styles */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    
+    .portfolio {
+        max-width: 1000px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .tabs {
+        display: flex;
+        flex-wrap: wrap; /* Allow tabs to wrap */
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    .tablink {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        margin: 5px; /* Adjust spacing between tabs */
+        font-size: 16px;
+        font-weight: bold;
+        position: relative;
+        color: #555;
+        transition: color 0.3s;
+        width: 100%; /* Tabs take full width on mobile */
+        text-align: center; /* Center text on tabs */
+    }
+    
+    .tablink.active {
+        color: #333;
+    }
+    
+    .tab-underline {
+        display: none; /* Hide underline on mobile */
+    }
+    
+    .tabcontent {
+        display: none;
+        padding-top: 10px; /* Add padding to content */
+    }
+    
+    .tabcontent.active {
+        display: block;
+    }
+    
+    .image-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* Stack images in one column on mobile */
+        grid-gap: 10px; /* Adjust this value for the gap between images */
+        margin-top: 10px;
+    }
+    
+    .image-item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .image-item img {
+        max-width: 100%;
+        height: auto;
+        transition: transform 0.3s ease-out;
+    }
+    
+    .image-item img.image-hover {
+        transform: scale(1.1);
+    }
+    
+    @media (min-width: 768px) {
+        .tabs {
+            flex-wrap: nowrap; /* Ensure tabs are not wrapped on larger screens */
+        }
+    
+        .tab-underline {
+            display: block; /* Display underline for larger screens */
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            background-color: #333;
+            transition: left 0.3s, width 0.3s;
+        }
+    
+        .tablink {
+            width: auto; /* Reset width for larger screens */
+        }
+        
+        .tabcontent {
+            padding-top: 0; /* Remove padding on larger screens */
+        }
+    
+        .image-section {
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust grid layout for larger screens */
+        }
+    }
+    
+        </style>
+    
+    <div class="portfolio mt-5">
+        <div class="tabs">
+            <button class="tablink active" onclick="openTab('all')">All Images</button>
+            <button class="tablink" onclick="openTab('renovation')">Renovation</button>
+            <button class="tablink" onclick="openTab('commercial')">Commercial</button>
+            <button class="tablink" onclick="openTab('residential')">Residential</button>
+            <div class="tab-underline"></div>
+        </div>
+        
+        <div id="all" class="tabcontent active">
+            <div class="image-section">
+                <!-- Insert images here for all categories -->
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Image 1">
+                </div>
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Image 2">
+                </div>
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Image 3">
+                </div>
+
+
+                
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+    
+        <div id="renovation" class="tabcontent">
+            <div class="image-section">
+                <!-- Insert images here for renovation -->
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Renovation Image 1">
+                </div>
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Renovation Image 2">
+                </div>
+
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Residential Image 2">
+                </div>
+
+
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Residential Image 2">
+                </div>
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+    
+        <div id="commercial" class="tabcontent">
+            <div class="image-section">
+                <!-- Insert images here for commercial -->
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Commercial Image 1">
+                </div>
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Commercial Image 2">
+                </div>
+
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Residential Image 2">
+                </div>
+
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Residential Image 2">
+                </div>
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+    
+        <div id="residential" class="tabcontent">
+            <div class="image-section">
+                <!-- Insert images here for residential -->
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Residential Image 1">
+                </div>
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Residential Image 2">
+                </div>
+
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Residential Image 2">
+                </div>
+
+                <div class="image-item">
+                    <img src="assets/img/gallery/gallery2.png" alt="Residential Image 2">
+                </div>
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    function openTab(tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].classList.remove("active");
+        }
+        document.getElementById(tabName).classList.add("active");
+        
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active");
+        }
+        event.currentTarget.classList.add("active");
+    
+        // Update underline position
+        var underline = document.querySelector('.tab-underline');
+        var activeButton = document.querySelector('.tablink.active');
+        underline.style.left = activeButton.offsetLeft + 'px';
+        underline.style.width = activeButton.offsetWidth + 'px';
+    }
+    
+    // Set initial underline position
+    document.addEventListener("DOMContentLoaded", function() {
+        var underline = document.querySelector('.tab-underline');
+        var activeButton = document.querySelector('.tablink.active');
+        underline.style.left = activeButton.offsetLeft + 'px';
+        underline.style.width = activeButton.offsetWidth + 'px';
+    });
+    
+    // Image hover animation
+    const imageItems = document.querySelectorAll('.image-item');
+    imageItems.forEach(item => {
+        item.addEventListener('mouseover', () => {
+            item.querySelector('img').classList.add('image-hover');
+        });
+    
+        item.addEventListener('mouseout', () => {
+            item.querySelector('img').classList.remove('image-hover');
+        });
+    });
+    </script>
+
+
+
+
+           
+
+
+
+
+
+
+
+
+        
+        <!--? Services Are Start -->
         <div class="services-area section-padding3">
             <div class="container">
                 <div class="row justify-content-center">
@@ -615,6 +891,15 @@
     <!-- Jquery Plugins, main Jquery -->
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
 
