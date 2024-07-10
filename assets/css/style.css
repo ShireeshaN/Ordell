@@ -3992,7 +3992,7 @@ hero-btn {
 
 .slider-area {
     position: relative;
-    background-image: url(../img/hero/h1_hero.jpg);
+    background-image: url(../img/hero/herobannerimgod1.1.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -4325,6 +4325,7 @@ hero-btn {
 
 .our-info-area {
     background: #f9f9f9;
+    height:400px;
 }
 
 /* line 4, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
@@ -4344,6 +4345,7 @@ hero-btn {
     left: 0;
     z-index: 0;
     top: -24px;
+    background-color: #042c54c4;
 }
 
 /* line 18, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
@@ -9181,7 +9183,7 @@ del {
     .choose_m{
     padding-top:100px;
     padding-bottom:100px; 
-    padding: 20px;
+    padding: 30px;
      }
     .choose_1l span a{
     width:100px;
@@ -9195,10 +9197,12 @@ del {
      }
     .choose_1ril{
     transition: 0.3s; 
+    
      }
     .choose_1ril:hover{
     color:#fff;
     background:#cd8c66!important; 
+   
      }
     .choose_1ril:hover i{
     color:#fff!important;
