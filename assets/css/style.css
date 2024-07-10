@@ -5254,7 +5254,7 @@ hero-btn {
 /* line 67, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 
 .footer-area .footer-top .single-footer-caption .footer-cap {
-    margin-bottom: 30px;
+    margin-bottom: 2px;
 }
 
 /* line 69, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5263,7 +5263,7 @@ hero-btn {
     color: #ff1313;
     font-size: 16px;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     display: block;
 }
 
