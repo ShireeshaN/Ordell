@@ -3767,7 +3767,7 @@ hero-btn {
 /* line 71, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 
 .header-area .menu-wrapper .main-menu ul li:hover>a {
-    color: #ff1313;
+    color:#BC996B;
 }
 
 /* line 75, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
@@ -5160,6 +5160,7 @@ hero-btn {
 
 .footer-area .footer-top .single-footer-caption .footer-logo {
     margin-bottom: 30px;
+    
 }
 
 /* line 10, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
