@@ -666,7 +666,7 @@ a:hover {
 /* line 305, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .btn-black {
-    background: #0b1416;
+    background:;
 }
 
 /* line 308, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -3151,8 +3151,8 @@ hero-btn {
 /* line 757, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .testimonial-padding {
-    padding-top: 130px;
-    padding-bottom: 140px;
+   padding-top: 20px;
+   padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4628,7 +4628,7 @@ hero-btn {
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_wantTowork.scss */
 
 .wantToWork-area {
-    background: #ff0000;
+    background: #052435;
 }
 
 /* line 4, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_wantTowork.scss */

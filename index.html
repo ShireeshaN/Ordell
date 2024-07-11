@@ -92,6 +92,9 @@
         <!-- Header End -->
     </header>
     <main>
+
+
+
         <!--? slider Area Start-->
         <div class="slider-area">
             <div class="slider-active dot-style">
@@ -105,27 +108,95 @@
                                     <h1 data-animation="fadeInLeft" data-delay=".6s">Modern Interior & Design</h1>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Slider -->
-                <!-- <div class="single-slider slider-height hero-overly d-flex align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6">
-                                <div class="hero__caption">
-                                    <span data-animation="fadeInLeft" data-delay=".4s">Welcome to Intorior</span>
-                                    <h1 data-animation="fadeInLeft" data-delay=".6s">Modern Interior & Design</h1>
-                                </div>
+
+<div class="col-xl-6 col-lg-6">
+                               
+<!--to-->
+<div class="scroll-section">
+    <div class="scroll-column down-scroll">
+        <img src="assets/img/service-images/2.png" alt="Image 1">
+        <img src="assets/img/service-images/cafe-terrace-with-turquoise-sofas-yellow-pillows_140725-2484.jpg" alt="Image 2">
+        <img src="assets/img/service-images/empty-room-with-chairs-desks_23-2149008873.avif" alt="Image 3">
+        <img src="assets/img/service-images/wedding-hall-with-white-wooden-furniture-interior_114579-2232.jpg" alt="Image 4">
+        <img src="assets/img/service-images/7.png" alt="Image 5">
+    </div>
+    <div class="scroll-column up-scroll">
+        <img src="assets/img/service-images/7.png" alt="Image 6">
+        <img src="assets/img/service-images/9.png" alt="Image 7">
+        <img src="assets/img/service-images/3d-rendering-luxury-business-meeting-working-room-executive-office_105762-1993.avif" alt="Image 8">
+        <img src="assets/img/service-images/4.png" alt="Image 9">
+        <img src="assets/img/service-images/1.png" alt="Image 10">
+    </div>
+</div>
+</div>
+<!--to-->
+<style>
+  .scroll-section {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    border: none; /* Remove border */
+    overflow: hidden;
+}
+
+.scroll-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden; /* Hide scrollbar */
+    margin: 0; /* Remove any default margin */
+}
+
+.scroll-column img {
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+}
+
+.down-scroll {
+    direction: ltr;
+}
+
+.up-scroll {
+    direction: ltr;
+}
+
+</style>
+
+<script>
+      const downScroll = document.querySelector('.down-scroll');
+const upScroll = document.querySelector('.up-scroll');
+
+let scrollSpeed = 1; // Adjust scroll speed here
+let isPaused = false;
+
+function scrollImages() {
+    if (!isPaused) {
+        downScroll.scrollTop += scrollSpeed;
+        upScroll.scrollTop -= scrollSpeed;
+
+        if (downScroll.scrollTop >= downScroll.scrollHeight - downScroll.clientHeight) {
+            downScroll.scrollTop = 0;
+        }
+        if (upScroll.scrollTop <= 0) {
+            upScroll.scrollTop = upScroll.scrollHeight - upScroll.clientHeight;
+        }
+    }
+
+    requestAnimationFrame(scrollImages);
+}
+
+scrollImages();
+</script>
+
+
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
+               
             </div>
-            <!-- Video icon -->
-            <div class="video-icon">
-                <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=1aP-TXUpNoU"><i class="fas fa-play"></i></a>
-            </div>
+            
         </div>
         <!-- slider Area End-->
 
@@ -138,6 +209,11 @@
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
+
+
+
+
+    
 </style>
 
         <section class="bg-white pt-3 pb-3  " id="overview">
@@ -684,7 +760,7 @@
 <section class=" pb-5 bg-white" >
 <div class="section-tittle text-center mb-70 pt-3">
     <span>Why Choose Us</span>
-    <h2 class="text-dark">Why We</h2>
+    <h2 class="text-dark">Why We</h2> 
 </div>
 <section style="background-color: #BC996B;" class=" pt-5 pb-5 pl-5 pr-5 gallery-area" id="choose">
     <div class="choose_m bg_back_g">
@@ -770,13 +846,13 @@
                                 <!-- Testimonial Content -->
                                 <div class="testimonial-caption ">
                                     <div class="testimonial-top-cap">
-                                        <img src="assets/img/gallery/testi-logo.png" alt="">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                                        <img class="imgsizes" src="assets/img/hero/logoord.png" alt="">
+                                        <p>Ordell Interior transformed our home into a modern, stylish sanctuary. Their attention to detail and understanding of our needs were remarkable. We couldn't be happier with the results!</p>
                                     </div>
                                     <!-- founder -->
                                     <div class="testimonial-founder  ">
                                         <div class="founder-img">
-                                            <span><strong>Christine Eve</strong>   -   Co Founder</span>
+                                            <span>Kiran Kumar</span>
                                         </div>
                                     </div>
                                 </div>
@@ -786,13 +862,29 @@
                                 <!-- Testimonial Content -->
                                 <div class="testimonial-caption ">
                                     <div class="testimonial-top-cap">
-                                        <img src="assets/img/gallery/testi-logo.png" alt="">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                                        <img class="imgsizes" src="assets/img/hero/logoord.png" alt="">
+                                        <p>The team at Ordell Interior exceeded our expectations. From the initial consultation to the final touches, 
+                                            they provided exceptional service and beautiful designs. Highly recommend them!</p>
                                     </div>
                                     <!-- founder -->
                                     <div class="testimonial-founder  ">
                                         <div class="founder-img">
-                                            <span><strong>Christine Eve</strong>   -   Co Founder</span>
+                                            <span>Sridhar </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-testimonial text-center">
+                                <!-- Testimonial Content -->
+                                <div class="testimonial-caption ">
+                                    <div class="testimonial-top-cap">
+                                        <img class="imgsizes" src="assets/img/hero/logoord.png" alt="">
+                                        <p>Working with Ordell Interior was a fantastic experience. They brought our vision to life with creativity and professionalism. Our office space looks incredible, and we've received numerous compliments</p>
+                                    </div>
+                                    <!-- founder -->
+                                    <div class="testimonial-founder  ">
+                                        <div class="founder-img">
+                                            <span>Vishnu Sai</span>
                                         </div>
                                     </div>
                                 </div>
@@ -804,8 +896,9 @@
         </div>
         <!-- Testimonial End -->
         <!-- Brand Area Start -->
-        <div class="brand-area pt-120 pb-120">
+        <div class="brand-area pt-120 pb-120" style="background-color: #70716c;">
             <div class="container">
+                <h1 class="text-center text-white">Our Partners</h1>
                 <div class="brand-active brand-border pt-50 pb-40">
                     <div class="single-brand">
                         <img src="assets/img/gallery/brand1.png" alt="">
@@ -853,7 +946,7 @@
                     <div class="col-lg-12">
                         <div class="section-tittle text-center mb-70">
                             <span>Our latest blog</span>
-                            <h2>Our recent news</h2>
+                            <h2 class="text-dark">Our recent news</h2>
                         </div>
                     </div>
                 </div>
