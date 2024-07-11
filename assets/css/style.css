@@ -4691,7 +4691,7 @@ hero-btn {
 /* line 3, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
 
 .gallery-area {
-    background: #0c0f16;
+    background: white;
 }
 
 /* line 5, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
@@ -5429,7 +5429,7 @@ hero-btn {
 /* line 3, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
 
 .home-blog-area {
-    background: #0c0f16;
+    background: white;
 }
 
 /* line 5, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -9179,7 +9179,7 @@ del {
 #choose {
     background-image: url(../img/hero/herobannerimgod1.1.png);
     background-position: center;
-    }
+    }.home-blog-area
     .choose_m{
     padding-top:100px;
     padding-bottom:100px; 
