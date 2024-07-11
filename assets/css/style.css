@@ -124,7 +124,7 @@
     padding: 18px 44px;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 400;
     border: 0;
     border: 1px solid #fecb38;
     letter-spacing: 3px;
@@ -4454,7 +4454,7 @@ hero-btn {
 /* line 40, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_professional-service.scss */
 
 .body-bg {
-    background: #12151a;
+    background: white;
 }
 
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
@@ -9182,7 +9182,7 @@ del {
 
 /*********************choose****************/
 #choose {
-    background-image: url(../img/hero/herobannerimgod1.1.png);
+  
     background-position: center;
     }.home-blog-area
     .choose_m{
@@ -9446,8 +9446,8 @@ del {
 
 
 .imgabout{
-    height:500px;
-    width:400px;
+    height:620px;
+    width:100%;
 }
 
 
