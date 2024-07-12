@@ -3486,6 +3486,7 @@ hero-btn {
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 17px;
+    font-family: Gilroy;
 }
 
 /* line 941, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -3496,12 +3497,14 @@ hero-btn {
     font-weight: 600;
     text-transform: capitalize;
     line-height: 1.3;
+    font-family: Gilroy;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     /* line 941, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
     .section-tittle h2 {
         font-size: 42px;
+        font-family: Gilroy;
     }
 }
 
@@ -3509,6 +3512,7 @@ hero-btn {
     /* line 941, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
     .section-tittle h2 {
         font-size: 31px;
+        font-family: Gilroy;
     }
 }
 
@@ -3517,6 +3521,7 @@ hero-btn {
     .section-tittle h2 {
         font-size: 30px;
         line-height: 1.6;
+        font-family: Gilroy;
     }
 }
 
@@ -3524,6 +3529,7 @@ hero-btn {
 
 .section-tittle p {
     color: #717b9b;
+    font-family: Gilroy;
 }
 
 /* line 963, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -3532,6 +3538,7 @@ hero-btn {
     color: #383838;
     font-size: 16px;
     font-weight: 300;
+    font-family: Gilroy;
 }
 
 /* line 969, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -3539,6 +3546,7 @@ hero-btn {
 .section-tittle.profession-details h2 {
     color: #000000;
     margin-bottom: 25px;
+    font-family: Gilroy;
 }
 
 /* line 973, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -3547,18 +3555,21 @@ hero-btn {
     color: #383838;
     margin-bottom: 21px;
     font-size: 20px;
+    font-family: Gilroy;
 }
 
 /* line 981, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .section-tittle2 h2 {
     color: #fff;
+    font-family: Gilroy;
 }
 
 /* line 984, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .section-tittle2 p {
     color: #fff;
+    font-family: Gilroy;
 }
 
 /* line 989, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -3748,7 +3759,7 @@ hero-btn {
     padding: 39px 19px;
     display: block;
     font-size: 16px;
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: Gilroy;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -3810,6 +3821,7 @@ hero-btn {
     padding: 6px 10px !important;
     font-size: 16px;
     color: #fdfdfd;
+    font-family: Gilroy;
 }
 
 /* line 100, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
@@ -3900,6 +3912,7 @@ hero-btn {
 .mobile_menu .slicknav_menu .slicknav_nav a {
     font-size: 15px;
     padding: 7px 10px;
+    font-family: Gilroy;
 }
 
 /* line 179, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
@@ -3911,7 +3924,7 @@ hero-btn {
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 
 .slider-height {
-    height: 1050px;
+height:700px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3992,7 +4005,7 @@ hero-btn {
 
 .slider-area {
     position: relative;
-    background-image: url(../img/hero/herobannerimgod1.1.png);
+    background-image: url(../img/hero/head1.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -4021,7 +4034,7 @@ hero-btn {
 /* line 58, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 
 .slider-area .hero__caption span {
-    color: #fff;
+    color: #d9b078;
     font-size: 25px;
     line-height: 1.2;
     font-weight: 300;
@@ -4030,6 +4043,7 @@ hero-btn {
     display: inline-block;
     font-style: italic;
     text-transform: uppercase;
+    font-family: Gilroy;
 }
 
 /* line 68, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
@@ -4045,6 +4059,7 @@ hero-btn {
     left: 0;
     background-size: 75%;
     right: 0;
+    font-family: Gilroy;
 }
 
 /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
@@ -4053,10 +4068,11 @@ hero-btn {
     font-size: 95px;
     font-weight: 600;
     margin-bottom: 14px;
-    color: #fff;
+    color: #012c3d;
     line-height: 95px;
     text-transform: capitalize;
     margin-bottom: 40px;
+    font-family: Gilroy;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4120,6 +4136,7 @@ hero-btn {
     color: #fff;
     border: 0;
     font-size: 16px;
+    font-family: Gilroy;
 }
 
 /* line 131, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
@@ -4143,7 +4160,7 @@ hero-btn {
 .hero-overly::before {
     position: absolute;
     content: "";
-    background-color: #042c54c4;
+    
     width: 100%;
     height: 100%;
     left: 0;
@@ -4162,6 +4179,7 @@ hero-btn {
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1;
+    font-family: Gilroy;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4291,6 +4309,7 @@ hero-btn {
     border: 1px solid #ff1313;
     -webkit-animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
     animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
+    font-family: Gilroy;
 }
 
 @-webkit-keyframes btnIconRipple {
@@ -4359,7 +4378,7 @@ hero-btn {
     position: relative;
     z-index: 2;
     margin-bottom: 15px;
-    font-family: "Barlow", sans-serif;
+    font-family: Gilroy;
 }
 
 /* line 29, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
@@ -4370,7 +4389,7 @@ hero-btn {
     margin-bottom: 0px;
     display: block;
     font-weight: 300;
-    font-style: italic;
+    font-family: Gilroy;
     padding-left: 93px;
     line-height: 1.4;
 }
@@ -4448,6 +4467,7 @@ hero-btn {
     /* line 33, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_professional-service.scss */
     .profession-caption .profession-details p {
         font-size: 17px;
+        font-family: Gilroy;
     }
 }
 
@@ -4511,6 +4531,7 @@ hero-btn {
     font-weight: 700;
     font-size: 24px;
     display: block;
+    font-family: Gilroy;
 }
 
 /* line 28, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
@@ -4551,6 +4572,7 @@ hero-btn {
     -o-transition: all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s;
     line-height: 1.5;
+    font-family: Gilroy;
 }
 
 /* line 53, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
@@ -4639,6 +4661,7 @@ hero-btn {
     font-weight: 700;
     line-height: 1.5;
     margin: 0;
+    font-family: Gilroy;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4660,6 +4683,7 @@ hero-btn {
 
 .wantToWork-area .wantToWork-caption p {
     font-size: 18px;
+    font-family: Gilroy;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4770,12 +4794,14 @@ hero-btn {
     font-weight: 600;
     font-size: 48px;
     margin: 0;
+    font-family: Gilroy;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     /* line 53, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
     .gallery-area .single-gallery .thumb-content-box .thumb-content h3 {
         font-size: 32px;
+        font-family: Gilroy;
     }
 }
 
@@ -4783,6 +4809,7 @@ hero-btn {
     /* line 53, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
     .gallery-area .single-gallery .thumb-content-box .thumb-content h3 {
         font-size: 32px;
+        font-family: Gilroy;
     }
 }
 
@@ -4790,6 +4817,7 @@ hero-btn {
     /* line 53, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
     .gallery-area .single-gallery .thumb-content-box .thumb-content h3 {
         font-size: 32px;
+        font-family: Gilroy;
     }
 }
 
@@ -4798,12 +4826,14 @@ hero-btn {
 .gallery-area .single-gallery .thumb-content-box .thumb-content h3 span {
     font-size: 39px;
     display: block;
+    font-family: Gilroy;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     /* line 67, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
     .gallery-area .single-gallery .thumb-content-box .thumb-content h3 span {
         font-size: 29px;
+        font-family: Gilroy;
     }
 }
 
@@ -4811,6 +4841,7 @@ hero-btn {
     /* line 67, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
     .gallery-area .single-gallery .thumb-content-box .thumb-content h3 span {
         font-size: 29px;
+        font-family: Gilroy;
     }
 }
 
@@ -4818,6 +4849,7 @@ hero-btn {
     /* line 67, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
     .gallery-area .single-gallery .thumb-content-box .thumb-content h3 span {
         font-size: 29px;
+        font-family: Gilroy;
     }
 }
 
@@ -4868,7 +4900,7 @@ hero-btn {
 /* line 12, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_team.scss */
 
 .single-team .team-caption span {
-    color: #959595;
+    color: #012c3d ;
     font-size: 16px;
     font-weight: 300;
     font-family: "Barlow Condensed", sans-serif;
@@ -4876,6 +4908,7 @@ hero-btn {
     position: relative;
     margin-left: 50px;
     margin-bottom: 10px;
+    font-family: Gilroy;
 }
 
 /* line 21, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_team.scss */
@@ -4897,6 +4930,7 @@ hero-btn {
     color: #fff;
     font-weight: 600;
     font-size: 48px;
+    font-family: Gilroy;
 }
 
 /* line 42, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_team.scss */
@@ -4945,6 +4979,7 @@ hero-btn {
     margin-bottom: 50px;
     font-size: 18px;
     margin-bottom: 30px;
+    font-family: Gilroy;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4953,6 +4988,7 @@ hero-btn {
         font-size: 18px;
         line-height: 1.6;
         font-size: 16px;
+        font-family: Gilroy;
     }
 }
 
@@ -4964,6 +5000,7 @@ hero-btn {
         line-height: 1.7;
         padding: 0;
         font-size: 17px;
+        font-family: Gilroy;
     }
 }
 
@@ -4975,6 +5012,7 @@ hero-btn {
         line-height: 1.7;
         padding: 0 5px;
         font-size: 18px;
+        font-family: Gilroy;
     }
 }
 
@@ -4984,6 +5022,7 @@ hero-btn {
     margin-bottom: 30px;
     display: inline-block;
     font-weight: 300;
+    font-family: Gilroy;
 }
 
 /* line 54, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_testimonial.scss */
@@ -4993,7 +5032,7 @@ hero-btn {
     font-size: 18px;
     line-height: 1;
     display: block;
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: Gilroy;
 }
 
 /* line 60, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_testimonial.scss */
@@ -5068,6 +5107,7 @@ hero-btn {
     opacity: 0;
     visibility: hidden;
     background: #ff1313;
+    font-family: Gilroy;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -5170,6 +5210,7 @@ hero-btn {
     font-size: 30px;
     font-weight: 500;
     text-transform: capitalize;
+    font-family: Gilroy;
 }
 
 /* line 15, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5224,7 +5265,7 @@ hero-btn {
 
 .footer-area .footer-top .single-footer-caption .footer-tittle h4 {
     color: #fff;
-    font-family: "Barlow", sans-serif;
+    font-family: Gilroy;
     font-size: 18px;
     margin-bottom: 38px;
     font-weight: 500;
@@ -5244,6 +5285,7 @@ hero-btn {
 .footer-area .footer-top .single-footer-caption .footer-tittle ul li a {
     color: #868c98;
     font-weight: 300;
+    font-family: Gilroy;
 }
 
 /* line 59, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5267,6 +5309,7 @@ hero-btn {
     font-weight: 300;
     margin-bottom: 5px;
     display: block;
+    font-family: Gilroy;
 }
 
 /* line 76, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5274,6 +5317,7 @@ hero-btn {
 .footer-area .footer-top .single-footer-caption .footer-cap p {
     color: #bdbdbd;
     font-size: 16px;
+    font-family: Gilroy;
 }
 
 /* line 84, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5291,6 +5335,7 @@ hero-btn {
     font-size: 16px;
     line-height: 2;
     margin-bottom: 12px;
+    font-family: Gilroy;
 }
 
 /* line 95, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5381,6 +5426,7 @@ hero-btn {
     font-size: 14px;
     text-align: center;
     margin-left: 16px;
+    font-family: Gilroy;
 }
 
 /* line 162, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5405,6 +5451,7 @@ hero-btn {
     font-weight: 600;
     padding-left: 95px;
     position: relative;
+    font-family: Gilroy;
 }
 
 /* line 10, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services.scss */
@@ -5426,6 +5473,7 @@ hero-btn {
     color: #fff;
     font-size: 50px;
     font-weight: 700;
+    font-family: Gilroy;
 }
 
 /* line 3, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5475,6 +5523,7 @@ hero-btn {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 300;
     color: #787878;
+    font-family: Gilroy;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5545,6 +5594,7 @@ hero-btn {
     line-height: 1.4;
     margin-bottom: 20px;
     display: block;
+    font-family: Gilroy;
 }
 
 /* line 63, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5580,7 +5630,7 @@ hero-btn {
     color: #3a3a3a;
     text-transform: capitalize;
     font-size: 14px;
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: Gilroy;
     color: #3a3a3a;
     position: relative;
     padding-left: 50px;
@@ -5698,6 +5748,7 @@ hero-btn {
 .single-blog a {
     font-size: 20px;
     font-weight: 600;
+    font-family: Gilroy;
 }
 
 /* line 181, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5708,6 +5759,7 @@ hero-btn {
     display: inline-block;
     font-size: 13px;
     font-weight: 300;
+    font-family: Gilroy;
 }
 
 /* line 189, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5720,6 +5772,7 @@ hero-btn {
     font-weight: 300;
     margin-right: 22px;
     position: relative;
+    font-family: Gilroy;
 }
 
 /* line 199, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5856,6 +5909,7 @@ hero-btn {
 .full_image.single-blog a {
     font-size: 20px;
     font-weight: 600;
+    font-family: Gilroy;
 }
 
 /* line 310, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5907,6 +5961,7 @@ hero-btn {
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
+    font-family: Gilroy;
 }
 
 /* line 362, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6002,6 +6057,7 @@ hero-btn {
     font-weight: 600;
     margin-bottom: 15px;
     cursor: pointer;
+    font-family: Gilroy;
 }
 
 /* line 451, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6011,6 +6067,7 @@ hero-btn {
     line-height: 24px;
     font-weight: 300;
     margin-bottom: 0px;
+    font-family: Gilroy;
 }
 
 /* line 461, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6024,6 +6081,7 @@ hero-btn {
     color: #fff;
     font-size: 14px;
     font-weight: 500;
+    font-family: Gilroy;
 }
 
 /* line 473, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6083,6 +6141,7 @@ hero-btn {
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
+    font-family: Gilroy;
 }
 
 /* line 525, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6101,6 +6160,7 @@ hero-btn {
     display: inline-block;
     padding: 1px 18px;
     text-align: center;
+    font-family: Gilroy;
 }
 
 /* line 546, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6173,6 +6233,7 @@ hero-btn {
     text-transform: uppercase;
     color: #fff;
     position: relative;
+    font-family: Gilroy;
 }
 
 /* line 609, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6182,6 +6243,7 @@ hero-btn {
     font-size: 14px;
     line-height: 26px;
     margin-bottom: 0px;
+    font-family: Gilroy;
 }
 
 /* line 616, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */

@@ -92,42 +92,120 @@
         <!-- Header End -->
     </header>
     <main>
-        <!--? slider Area Start-->
-        <div class="slider-area">
-            <div class="slider-active dot-style">
-                <!-- Single Slider -->
-                <div class="single-slider slider-height hero-overly d-flex align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6">
-                                <div class="hero__caption">
-                                    <span data-animation="fadeInLeft" data-delay=".4s">Welcome to Interior</span>
-                                    <h1 data-animation="fadeInLeft" data-delay=".6s">Modern Interior & Design</h1>
+<!--? slider Area Start-->
+<div class="slider-area">
+    <div class="slider-active dot-style">
+        <!-- Single Slider -->
+        <div class="single-slider slider-height hero-overly d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Left Column for Header Text -->
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="hero__caption">
+                            <span data-animation="fadeInLeft" data-delay=".4s">Welcome to Interior</span>
+                            <h1 data-animation="fadeInLeft" data-delay=".6s">Modern Interior & Design</h1>
+                        </div>
+                    </div>
+                    <!-- Right Column for Contact Form -->
+                    <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1">
+                        <div class="contact-form-container" data-animation="fadeInRight" data-delay=".8s">
+                            <form action="#">
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input  type="text" id="name" name="name" class="form-control" placeholder = 'Enter Your Name' required>
                                 </div>
-                            </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number:</label>
+                                    <input type="tel" id="phone" name="phone" class="form-control" placeholder = 'Enter Your Phone Number' required>
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" id="whatsapp-updates" name="whatsapp-updates" class="form-check-input">
+                                    <label for="whatsapp-updates" class="form-check-label">Send me WhatsApp updates</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary p-3">Get Free Quote</button>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <!-- Single Slider -->
-                <!-- <div class="single-slider slider-height hero-overly d-flex align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6">
-                                <div class="hero__caption">
-                                    <span data-animation="fadeInLeft" data-delay=".4s">Welcome to Intorior</span>
-                                    <h1 data-animation="fadeInLeft" data-delay=".6s">Modern Interior & Design</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-            <!-- Video icon -->
-            <div class="video-icon">
-                <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=1aP-TXUpNoU"><i class="fas fa-play"></i></a>
             </div>
         </div>
-        <!-- slider Area End-->
+        <!-- Single Slider -->
+        <!-- <div class="single-slider slider-height hero-overly d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="hero__caption">
+                            <span data-animation="fadeInLeft" data-delay=".4s">Welcome to Intorior</span>
+                            <h1 data-animation="fadeInLeft" data-delay=".6s">Modern Interior & Design</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <!-- Video icon -->
+    <div class="video-icon">
+        <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=1aP-TXUpNoU"><i class="fas fa-play"></i></a>
+    </div>
+</div>
+<!-- slider Area End-->
+
+<style>
+    .contact-form-container {
+        background-color: #012c3d;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .contact-form-container .form-group {
+        margin-bottom: 15px;
+    }
+
+    .contact-form-container .form-control {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .contact-form-container .form-check-input {
+        margin-right: 10px;
+    }
+
+    .contact-form-container .btn-primary {
+        background-color: #d9b078;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        color: WHITE;
+        font-family: Gilroy;
+    }
+
+    .contact-form-container .btn-primary:hover {
+        background-color: #d4a20c;
+        color: WHITE;
+        font-family: Gilroy;
+    }
+
+    .hero__caption {
+        margin-bottom: 20px;
+    }
+</style>
+
+
+
+
+
 
 <style>
     .portfolios {
@@ -225,6 +303,7 @@
         transition: color 0.3s;
         width: 100%; /* Tabs take full width on mobile */
         text-align: center; /* Center text on tabs */
+        font-family: Gilroy;
     }
     
     .tablink.active {
@@ -297,14 +376,14 @@
     }
     
         </style>
-<section class="pb-5" style="background-color:#70716c
+<section class="pb-5" style="background-color:white
 ;">
 <div class="row justify-content-center pt-3">
     <div class="cl-xl-7 col-lg-8 col-md-10">
         <!-- Section Tittle -->
         <div class="section-tittle text-center">
-            <span style="color:#fecb38;">Our Professional Services</span>
-            <h2>Best Interior Services</h2>
+            <span style="color:#d9b078;" >Our Professional Services</span>
+            <h2 style="color:#012c3d;">Best Interior Services</h2>
             
         </div>
     </div>
@@ -539,12 +618,12 @@
 
         <!-- Services Ara End -->
 
-        <div class="row justify-content-center pt-5 pb-3">
+        <div class="row justify-content-center pt-5 pb-3" style="background-color:white;">
             <div class="cl-xl-7 col-lg-8 col-md-10">
                 <!-- Section Tittle -->
-                <div class="section-tittle text-center">
-                    <span>Our Professional Gallery</span>
-                    <h2>Gallery Area Start</h2>
+                <div class="section-tittle text-center " >
+                    <span style="color:#d9b078">Our Professional Gallery</span>
+                    <h2 style="color:#012c3d">Gallery Area Start</h2>
                 </div>
             </div>
         </div>
@@ -627,14 +706,14 @@
 
 
         <!-- Team Start -->
-        <div class="team-area section-padding30">
+        <div class="team-area section-padding30 bg-white">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="cl-xl-7 col-lg-8 col-md-10">
                         <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-70">
-                            <span>Creative Team</span>
-                            <h2>Best Team</h2>
+                            <span style="color:#d9b078;">Creative Team</span>
+                            <h2 style="color:#012c3d ;">Best Team</h2>
                         </div>
                     </div>
                 </div>
@@ -646,7 +725,7 @@
                                 <img src="assets/img/gallery/team2.png" alt="">
                             </div>
                             <div class="team-caption">
-                                <h3><a href="#">Jhon Sunsa</a></h3>
+                                <h3 ><a href="#" style="color:#012c3d ;">Jhon Sunsa</a></h3>
                                 <span>Creative derector</span>
                             </div>
                         </div>
@@ -657,7 +736,7 @@
                                 <img src="assets/img/gallery/team3.png" alt="">
                             </div>
                             <div class="team-caption">
-                                <h3><a href="#">Jhon Sunsa</a></h3>
+                                <h3 ><a href="#" style="color:#012c3d ;">Jhon Sunsa</a></h3>
                                 <span>Creative derector</span>
                             </div>
                         </div>
@@ -668,7 +747,7 @@
                                 <img src="assets/img/gallery/team1.png" alt="">
                             </div>
                             <div class="team-caption">
-                                <h3><a href="#">Jhon Sunsa</a></h3>
+                                <h3 ><a href="#" style="color:#012c3d ;">Jhon Sunsa</a></h3>
                                 <span>Creative derector</span>
                             </div>
                         </div>
@@ -680,7 +759,7 @@
 
 
 <!--choose-->
-<section class=" mb-5 mt-5" id="choose">
+<section class=" mb-5 mt-5" id="choose" style="background-color: white;">
     <div class="choose_m bg_back_g">
       <div class="container-xl">
        <div class="choose_1 row">
