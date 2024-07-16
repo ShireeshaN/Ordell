@@ -122,7 +122,7 @@
     color: #1f2b7b !important;
     display: inline-block;
     padding: 18px 44px;
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: Gilroy, sans-serif;
     font-size: 18px;
     font-weight: 400;
     border: 0;
@@ -239,7 +239,7 @@
 /* line 4, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 body {
-    font-family: "Barlow", sans-serif;
+    font-family:sans-serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -252,7 +252,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Barlow Condensed", sans-serif;
+    font-family:sans-serif;
     color: #fff;
     margin-top: 0px;
     font-style: normal;
@@ -263,7 +263,7 @@ h6 {
 /* line 23, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 p {
-    font-family: "Barlow", sans-serif;
+    font-family:  sans-serif;
     color: #10285d;
     font-size: 16px;
     line-height: 30px;
@@ -594,7 +594,7 @@ hr {
     background: #BC996B;
     padding: 27px 44px;
     text-transform: uppercase;
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: sans-serif;
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -707,7 +707,7 @@ a:hover {
     color: #fff;
     cursor: pointer;
     text-transform: uppercase;
-    font-family: "Barlow", sans-serif;
+    font-family: sans-serif;
     font-size: 14px;
     border-radius: 5px;
     border: 0;
@@ -3486,7 +3486,7 @@ hero-btn {
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 17px;
-    font-family: Gilroy;
+    font-family:Gilroy, sans-serif;
 }
 
 /* line 941, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -3497,14 +3497,14 @@ hero-btn {
     font-weight: 600;
     text-transform: capitalize;
     line-height: 1.3;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     /* line 941, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
     .section-tittle h2 {
         font-size: 42px;
-        font-family: Gilroy;
+        font-family:  sans-serif;
     }
 }
 
@@ -3512,7 +3512,7 @@ hero-btn {
     /* line 941, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
     .section-tittle h2 {
         font-size: 31px;
-        font-family: Gilroy;
+        font-family:  sans-serif;
     }
 }
 
@@ -3521,7 +3521,7 @@ hero-btn {
     .section-tittle h2 {
         font-size: 30px;
         line-height: 1.6;
-        font-family: Gilroy;
+        font-family:  sans-serif;
     }
 }
 
@@ -3529,7 +3529,7 @@ hero-btn {
 
 .section-tittle p {
     color: #717b9b;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 /* line 963, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -3538,7 +3538,7 @@ hero-btn {
     color: #383838;
     font-size: 16px;
     font-weight: 300;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 /* line 969, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -3546,7 +3546,7 @@ hero-btn {
 .section-tittle.profession-details h2 {
     color: #000000;
     margin-bottom: 25px;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 /* line 973, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -3555,21 +3555,21 @@ hero-btn {
     color: #383838;
     margin-bottom: 21px;
     font-size: 20px;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 /* line 981, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .section-tittle2 h2 {
     color: #fff;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 /* line 984, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .section-tittle2 p {
     color: #fff;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 /* line 989, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -3759,7 +3759,7 @@ hero-btn {
     padding: 39px 19px;
     display: block;
     font-size: 16px;
-    font-family: Gilroy;
+    font-family:  sans-serif;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -3821,7 +3821,7 @@ hero-btn {
     padding: 6px 10px !important;
     font-size: 16px;
     color: #fdfdfd;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 /* line 100, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
@@ -3912,7 +3912,7 @@ hero-btn {
 .mobile_menu .slicknav_menu .slicknav_nav a {
     font-size: 15px;
     padding: 7px 10px;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 /* line 179, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
@@ -4043,7 +4043,7 @@ height:700px;
     display: inline-block;
     font-style: italic;
     text-transform: uppercase;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 /* line 68, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
@@ -4059,7 +4059,7 @@ height:700px;
     left: 0;
     background-size: 75%;
     right: 0;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
@@ -4072,7 +4072,7 @@ height:700px;
     line-height: 95px;
     text-transform: capitalize;
     margin-bottom: 40px;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4179,7 +4179,7 @@ height:700px;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4309,7 +4309,7 @@ height:700px;
     border: 1px solid #ff1313;
     -webkit-animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
     animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 @-webkit-keyframes btnIconRipple {
@@ -4378,7 +4378,7 @@ height:700px;
     position: relative;
     z-index: 2;
     margin-bottom: 15px;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 /* line 29, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
@@ -4389,7 +4389,7 @@ height:700px;
     margin-bottom: 0px;
     display: block;
     font-weight: 300;
-    font-family: Gilroy;
+    font-family:  sans-serif;
     padding-left: 93px;
     line-height: 1.4;
 }
@@ -4467,7 +4467,7 @@ height:700px;
     /* line 33, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_professional-service.scss */
     .profession-caption .profession-details p {
         font-size: 17px;
-        font-family: Gilroy;
+        font-family:  sans-serif;
     }
 }
 
@@ -4515,7 +4515,7 @@ height:700px;
 .services-area .single-services .services-caption h3 {
     margin-bottom: 15px;
     line-height: 13px;
-    font-family: "Barlow", sans-serif;
+    font-family:  sans-serif;
     position: relative;
     -webkit-transition: all 0.4s ease-out 0s;
     -moz-transition: all 0.4s ease-out 0s;
@@ -4531,7 +4531,7 @@ height:700px;
     font-weight: 700;
     font-size: 24px;
     display: block;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 /* line 28, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
@@ -4572,7 +4572,7 @@ height:700px;
     -o-transition: all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s;
     line-height: 1.5;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 /* line 53, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
@@ -4683,7 +4683,7 @@ height:700px;
 
 .wantToWork-area .wantToWork-caption p {
     font-size: 18px;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4794,14 +4794,14 @@ height:700px;
     font-weight: 600;
     font-size: 48px;
     margin: 0;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     /* line 53, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
     .gallery-area .single-gallery .thumb-content-box .thumb-content h3 {
         font-size: 32px;
-        font-family: Gilroy;
+        font-family:  sans-serif;
     }
 }
 
@@ -4809,7 +4809,7 @@ height:700px;
     /* line 53, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
     .gallery-area .single-gallery .thumb-content-box .thumb-content h3 {
         font-size: 32px;
-        font-family: Gilroy;
+        font-family:  sans-serif;
     }
 }
 
@@ -4817,7 +4817,7 @@ height:700px;
     /* line 53, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
     .gallery-area .single-gallery .thumb-content-box .thumb-content h3 {
         font-size: 32px;
-        font-family: Gilroy;
+        font-family:  sans-serif;
     }
 }
 
@@ -4826,14 +4826,14 @@ height:700px;
 .gallery-area .single-gallery .thumb-content-box .thumb-content h3 span {
     font-size: 39px;
     display: block;
-    font-family: Gilroy;
+    font-family:  sans-serif;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     /* line 67, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
     .gallery-area .single-gallery .thumb-content-box .thumb-content h3 span {
         font-size: 29px;
-        font-family: Gilroy;
+        font-family:  sans-serif;
     }
 }
 
@@ -4841,7 +4841,7 @@ height:700px;
     /* line 67, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
     .gallery-area .single-gallery .thumb-content-box .thumb-content h3 span {
         font-size: 29px;
-        font-family: Gilroy;
+        font-family:  sans-serif;
     }
 }
 
@@ -4849,7 +4849,7 @@ height:700px;
     /* line 67, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
     .gallery-area .single-gallery .thumb-content-box .thumb-content h3 span {
         font-size: 29px;
-        font-family: Gilroy;
+        font-family: sans-serif;
     }
 }
 
@@ -4903,12 +4903,12 @@ height:700px;
     color: #012c3d ;
     font-size: 16px;
     font-weight: 300;
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: sans-serif;
     display: block;
     position: relative;
     margin-left: 50px;
     margin-bottom: 10px;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 21, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_team.scss */
@@ -4979,7 +4979,7 @@ height:700px;
     margin-bottom: 50px;
     font-size: 18px;
     margin-bottom: 30px;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4988,7 +4988,7 @@ height:700px;
         font-size: 18px;
         line-height: 1.6;
         font-size: 16px;
-        font-family: Gilroy;
+        font-family: sans-serif;
     }
 }
 
@@ -5000,7 +5000,7 @@ height:700px;
         line-height: 1.7;
         padding: 0;
         font-size: 17px;
-        font-family: Gilroy;
+        font-family: sans-serif;
     }
 }
 
@@ -5012,7 +5012,7 @@ height:700px;
         line-height: 1.7;
         padding: 0 5px;
         font-size: 18px;
-        font-family: Gilroy;
+        font-family: sans-serif;
     }
 }
 
@@ -5022,7 +5022,7 @@ height:700px;
     margin-bottom: 30px;
     display: inline-block;
     font-weight: 300;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 54, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_testimonial.scss */
@@ -5032,7 +5032,7 @@ height:700px;
     font-size: 18px;
     line-height: 1;
     display: block;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 60, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_testimonial.scss */
@@ -5107,7 +5107,7 @@ height:700px;
     opacity: 0;
     visibility: hidden;
     background: #ff1313;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -5210,7 +5210,7 @@ height:700px;
     font-size: 30px;
     font-weight: 500;
     text-transform: capitalize;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 15, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5265,7 +5265,7 @@ height:700px;
 
 .footer-area .footer-top .single-footer-caption .footer-tittle h4 {
     color: #fff;
-    font-family: Gilroy;
+    font-family: sans-serif;
     font-size: 18px;
     margin-bottom: 38px;
     font-weight: 500;
@@ -5285,7 +5285,7 @@ height:700px;
 .footer-area .footer-top .single-footer-caption .footer-tittle ul li a {
     color: #868c98;
     font-weight: 300;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 59, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5309,7 +5309,7 @@ height:700px;
     font-weight: 300;
     margin-bottom: 5px;
     display: block;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 76, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5317,7 +5317,7 @@ height:700px;
 .footer-area .footer-top .single-footer-caption .footer-cap p {
     color: #bdbdbd;
     font-size: 16px;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 84, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5426,7 +5426,7 @@ height:700px;
     font-size: 14px;
     text-align: center;
     margin-left: 16px;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 162, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5451,7 +5451,7 @@ height:700px;
     font-weight: 600;
     padding-left: 95px;
     position: relative;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 10, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services.scss */
@@ -5473,7 +5473,7 @@ height:700px;
     color: #fff;
     font-size: 50px;
     font-weight: 700;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 3, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5520,10 +5520,10 @@ height:700px;
 .home-blog-area .home-blog-single .blog-img-cap ul li {
     display: inline-block;
     font-size: 14px;
-    font-family: "Barlow Condensed", sans-serif;
+    font-family:  sans-serif;
     font-weight: 300;
     color: #787878;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5594,7 +5594,7 @@ height:700px;
     line-height: 1.4;
     margin-bottom: 20px;
     display: block;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 63, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5630,7 +5630,7 @@ height:700px;
     color: #3a3a3a;
     text-transform: capitalize;
     font-size: 14px;
-    font-family: Gilroy;
+    font-family: sans-serif;
     color: #3a3a3a;
     position: relative;
     padding-left: 50px;
@@ -5748,7 +5748,7 @@ height:700px;
 .single-blog a {
     font-size: 20px;
     font-weight: 600;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 181, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5759,7 +5759,7 @@ height:700px;
     display: inline-block;
     font-size: 13px;
     font-weight: 300;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 189, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5772,7 +5772,7 @@ height:700px;
     font-weight: 300;
     margin-right: 22px;
     position: relative;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 199, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5909,7 +5909,7 @@ height:700px;
 .full_image.single-blog a {
     font-size: 20px;
     font-weight: 600;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 310, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5961,7 +5961,7 @@ height:700px;
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 362, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6057,7 +6057,7 @@ height:700px;
     font-weight: 600;
     margin-bottom: 15px;
     cursor: pointer;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 451, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6067,7 +6067,7 @@ height:700px;
     line-height: 24px;
     font-weight: 300;
     margin-bottom: 0px;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 461, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6081,7 +6081,7 @@ height:700px;
     color: #fff;
     font-size: 14px;
     font-weight: 500;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 473, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6141,7 +6141,7 @@ height:700px;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 525, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6233,7 +6233,7 @@ height:700px;
     text-transform: uppercase;
     color: #fff;
     position: relative;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 609, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6243,7 +6243,7 @@ height:700px;
     font-size: 14px;
     line-height: 26px;
     margin-bottom: 0px;
-    font-family: Gilroy;
+    font-family: sans-serif;
 }
 
 /* line 616, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -7537,7 +7537,7 @@ height:700px;
     color: #fff;
     font-weight: 900;
     margin-bottom: 0;
-    font-family: "Barlow Condensed", sans-serif;
+    font-family:  sans-serif;
     text-transform: capitalize;
 }
 
@@ -7609,7 +7609,7 @@ height:700px;
     cursor: pointer;
     display: block;
     float: left;
-    font-family: "Barlow", sans-serif;
+    font-family: sans-serif;
     font-weight: normal;
     width: 100% !important;
     /* height: 42px; */
@@ -7648,7 +7648,7 @@ height:700px;
     top: 3px;
     transition: all 0.15s ease-in-out;
     width: 5px;
-    font-family: fontawesome;
+    font-family: sans-serif;
     color: #919191;
     font-size: 15px;
 }
@@ -9233,8 +9233,8 @@ del {
 /*# sourceMappingURL=style.css.map */
 
 .imgsizes{
-    height:90px;
-    width:100px;
+    height:50px;
+    width:150px;
 }
 .imgsizes1{
     height:150px;
