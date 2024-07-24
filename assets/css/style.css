@@ -591,21 +591,22 @@ hr {
 /* line 245, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .btn {
-    background: #d9b078;
-    padding: 20px 40px;
+    background: #BC996B;
+    padding: 27px 44px;
     text-transform: uppercase;
     font-family: sans-serif;
     color: #fff;
-    
-    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
     font-size: 16px;
     border-radius: 0px;
     -moz-user-select: none;
     font-weight: 400;
-    
+    letter-spacing: 1px;
+    line-height: 0;
     margin-bottom: 0;
     margin: 10px;
-   
+    cursor: pointer;
     transition: color 0.4s linear;
     position: relative;
     z-index: 1;
@@ -623,7 +624,7 @@ hr {
     top: 0;
     width: 101%;
     height: 101%;
-    background: #012c3d ;
+    background: #fff;
     color: #000 !important;
     z-index: 1;
     transition: transform 0.5s;
@@ -3534,7 +3535,7 @@ hero-btn {
 /* line 963, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .section-tittle.profession-details span {
-    color: #d9b078;
+    color: #383838;
     font-size: 16px;
     font-weight: 300;
     font-family:  sans-serif;
@@ -3543,7 +3544,7 @@ hero-btn {
 /* line 969, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .section-tittle.profession-details h2 {
-    color: #012c3d;
+    color: #000000;
     margin-bottom: 25px;
     font-family:  sans-serif;
 }
@@ -3755,10 +3756,10 @@ hero-btn {
 .header-area .menu-wrapper .main-menu ul li a {
     color: #fff;
     font-weight: 400;
-    padding: 25px 15px;
+    padding: 39px 19px;
     display: block;
     font-size: 16px;
-    font-family:  "inter";
+    font-family:  sans-serif;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -3810,7 +3811,7 @@ hero-btn {
 /* line 93, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 
 .header-area .menu-wrapper .main-menu ul ul.submenu>li {
-    margin-right: 7px;
+    margin-left: 7px;
     display: block;
 }
 
@@ -3828,9 +3829,8 @@ hero-btn {
 .header-area .menu-wrapper .main-menu ul ul.submenu>li>a:hover {
     color: #ff1313;
     background: none;
-    padding-Right: 13px !important;
+    padding-left: 13px !important;
 }
-
 
 /* line 125, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 
@@ -3996,7 +3996,7 @@ height:700px;
 /* line 37, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 
 .slider-area2 {
-    background-image: url(../img/hero/about-hero.png);
+    background-image: url(../img/hero/hero2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -4143,7 +4143,7 @@ height:700px;
 
 .dot-style .slick-active button {
     position: relative;
-   
+    text-decoration: underline;
     text-decoration-style: solid;
     padding-bottom: 5px;
 }
@@ -4344,7 +4344,7 @@ height:700px;
 
 .our-info-area {
     background: #f9f9f9;
-    height:200px;
+    height:400px;
 }
 
 /* line 4, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
@@ -4364,7 +4364,7 @@ height:700px;
     left: 0;
     z-index: 0;
     top: -24px;
-    background-color: #012c3d;
+    background-color: #042c54c4;
 }
 
 /* line 18, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
@@ -4397,7 +4397,7 @@ height:700px;
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_professional-service.scss */
 
 .professional-services {
-    height: 400px;
+    height: 800px;
     width: 100%;
 }
 
@@ -6461,7 +6461,6 @@ height:700px;
     padding-left: 20px;
     border-radius: 0;
     border-right: 0;
-    font-family: Gilroy;
 }
 
 /* line 796, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -7182,7 +7181,6 @@ height:700px;
 
 .comment-form .form-group {
     margin-bottom: 30px;
-    font-family: Gilroy;
 }
 
 /* line 1538, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -9245,9 +9243,6 @@ del {
 
 
 /*********************choose****************/
-.hl1{
-    color:#012c3d;
-}
 #choose {
   
     background-position: center;
@@ -9262,32 +9257,23 @@ del {
     height:100px;
     line-height:100px; 
     transition: 0.3s;
-    
      }
     .choose_1l span a:hover{
     background:blue!important;
-    color:#fff!important; 
-    font-family: Gilroy;
+    color:#000!important; 
      }
     .choose_1ril{
     transition: 0.3s; 
     
-    
      }
     .choose_1ril:hover{
-    color:#000;
+    color:#fff;
     background:#cd8c66!important; 
-    font-family: Gilroy;
    
      }
     .choose_1ril:hover i{
     color:#fff!important;
      }
-     .bg{
-        color:#fff!important;
-        background:#012c3d!important; 
-       
-         }
     /*********************choose_end****************/
     
 
@@ -9515,15 +9501,14 @@ del {
 
 .vision{
     font-size: 18px;
-    color:#1f2b7b;
-    font-weight: bold;
+    color:#1f2b7b;;
 }
 
 
 
 
 .imgabout{
-    height:660px;
+    height:620px;
     width:100%;
 }
 
