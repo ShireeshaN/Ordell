@@ -3974,18 +3974,21 @@ height:700px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    width:100%;
 }
 
 /* line 50, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 
 .slider-area .hero__caption {
     overflow: hidden;
+    
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     /* line 50, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
     .slider-area .hero__caption {
         padding-top: 50px;
+        
     }
 }
 
@@ -4016,7 +4019,7 @@ height:700px;
 .slider-area .hero__caption span::before {
     position: absolute;
     content: "";
-    background-image: url(../img/hero/hero_line.png);
+    
     background-repeat: no-repeat;
     height: 35%;
     z-index: -1;
@@ -4440,6 +4443,7 @@ height:700px;
 .body-bg {
     background: white;
 }
+
 
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
 
@@ -9472,7 +9476,7 @@ del {
 
 
 .imgabout{
-    height:620px;
+   
     width:100%;
 }
 
@@ -9498,7 +9502,23 @@ del {
     font-weight: bold;
     font-size: 22px;
 }
-
+.paras{
+    color:#052435;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: justify;
+}
+.paras2{
+    color:black;
+    font-family: "Roboto";
+    font-size: 13px;
+    text-align: justify;
+}
+.icon-sizes{
+    height:40px;
+    width:40px;
+    padding: 2px;
+}
 
 
 
