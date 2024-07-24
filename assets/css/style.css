@@ -591,56 +591,20 @@ hr {
 /* line 245, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .btn {
-    background: #BC996B;
-    padding: 27px 44px;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 0px;
-    -moz-user-select: none;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 0;
-    margin-bottom: 0;
-    margin: 10px;
-    cursor: pointer;
-    transition: color 0.4s linear;
-    position: relative;
-    z-index: 1;
-    border: 0;
-    overflow: hidden;
-    margin: 0;
+   background-color: #000;
+   
 }
 
 /* line 271, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .btn::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 101%;
-    height: 101%;
-    background: #fff;
-    color: #000 !important;
-    z-index: 1;
-    transition: transform 0.5s;
-    transition-timing-function: ease;
-    transform-origin: 0 0;
-    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
-    transform: scaleX(0);
-    border-radius: 0;
+   
 }
 
 /* line 290, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .btn:hover::before {
-    transform: scaleX(1);
-    color: #000000 !important;
-    z-index: -1;
+   
 }
 
 /* line 295, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -3734,6 +3698,7 @@ hero-btn {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -3756,10 +3721,10 @@ hero-btn {
 .header-area .menu-wrapper .main-menu ul li a {
     color: #fff;
     font-weight: 400;
-    padding: 39px 19px;
+    padding: 20px 20px;
     display: block;
-    font-size: 16px;
-    font-family:  sans-serif;
+    font-size: 13px;
+    font-family: "Roboto";
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -3771,7 +3736,7 @@ hero-btn {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     /* line 56, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
     .header-area .menu-wrapper .main-menu ul li a {
-        padding: 39px 14px;
+        padding: 20px 20px;
     }
 }
 
@@ -4005,7 +3970,7 @@ height:700px;
 
 .slider-area {
     position: relative;
-    background-image: url(../img/hero/head1.png);
+    background-image: url(../img/hero/herobannerimgod3.1.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -4065,21 +4030,21 @@ height:700px;
 /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 
 .slider-area .hero__caption h1 {
-    font-size: 95px;
-    font-weight: 600;
+    font-size: 50px;
+    font-weight: bold;
     margin-bottom: 14px;
-    color: #012c3d;
-    line-height: 95px;
+    color:white;
+    padding-top: 50px;
     text-transform: capitalize;
-    margin-bottom: 40px;
-    font-family:  sans-serif;
+
+    font-family:  "Roboto";
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
     .slider-area .hero__caption h1 {
-        font-size: 60px;
-        line-height: 1.2;
+        font-size: 50px;
+      
     }
 }
 
@@ -4087,7 +4052,7 @@ height:700px;
     /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
     .slider-area .hero__caption h1 {
         font-size: 50px;
-        line-height: 1.2;
+      
     }
 }
 
@@ -4095,7 +4060,7 @@ height:700px;
     /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
     .slider-area .hero__caption h1 {
         font-size: 35px;
-        line-height: 1.2;
+      
     }
 }
 
@@ -4103,7 +4068,7 @@ height:700px;
     /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
     .slider-area .hero__caption h1 {
         font-size: 32px;
-        line-height: 1.2;
+       
     }
 }
 
@@ -4143,8 +4108,7 @@ height:700px;
 
 .dot-style .slick-active button {
     position: relative;
-    text-decoration: underline;
-    text-decoration-style: solid;
+   
     padding-bottom: 5px;
 }
 
@@ -4179,7 +4143,7 @@ height:700px;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1;
-    font-family:  sans-serif;
+    font-family:"Roboto";
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -9525,7 +9489,15 @@ del {
 }
 
 
+.mainhead{
+    padding-left: 50px;
+}
 
+.heads{
+    color:#D9B078;
+    font-weight: bold;
+    font-size: 22px;
+}
 
 
 
