@@ -5154,7 +5154,7 @@ height:700px;
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 
 .footer-area {
-    background: #11141b;
+    background: #d9b078;
  
 }
 
@@ -9565,6 +9565,11 @@ del {
     font-weight: 500;
     font-size: 18px;
 
+}
+
+.img-li{
+    height: 50px;
+    width:50px;
 }
 
 

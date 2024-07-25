@@ -1,98 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interior Services Process</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <title>Alternating Content Sections</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <style>
-        .service-step {
-            margin-bottom: 40px;
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
         }
-
-        .service-step img {
+        .section {
+            display: flex;
+            align-items: center;
+            padding: 50px 0;
+            flex-wrap: wrap;
+        }
+        .section:nth-child(even) {
+            flex-direction: row-reverse;
+            background: #ececec;
+        }
+        .section img {
             width: 100%;
             height: auto;
-            margin-bottom: 20px;
+            max-width: 600px;
         }
-
-        .service-step .text-content {
+        .section-content {
+            flex: 1;
             padding: 20px;
+            box-sizing: border-box;
         }
-
-        .service-step h4 {
+        .section-content h2 {
+            font-size: 28px;
             color: #1f2b7b;
-            margin-bottom: 10px;
         }
-
-        .service-step p {
+        .section-content p {
+            font-size: 18px;
             color: #333;
-        }
-
-        .service-step:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
-
 <body>
-    <div class="container">
-        <h2 class="text-center my-5" style="color:#1f2b7b;">Our Interior Design Process</h2>
-        <div class="row service-step" data-aos="fade-right">
-            <div class="col-lg-6">
-                <img src="https://via.placeholder.com/300" alt="Initial Consultation">
-            </div>
-            <div class="col-lg-6 text-content">
-                <h4>Initial Client Consultation</h4>
-                <p>We start with a detailed discussion to understand your vision and requirements.</p>
-            </div>
+    <section class="section" data-aos="fade-right">
+        <div class="section-content">
+            <h2>End-to-End Residential Solutions</h2>
+            <p>From initial consultation to the final touches, we provide comprehensive residential design solutions.</p>
         </div>
-        <div class="row service-step" data-aos="fade-left">
-            <div class="col-lg-6">
-                <img src="https://via.placeholder.com/300" alt="Concept Development">
-            </div>
-            <div class="col-lg-6 text-content">
-                <h4>Concept Development and Theming</h4>
-                <p>Our designers create initial concepts and mood boards to capture your style.</p>
-            </div>
+        <img src="images/your-image1.jpg" alt="Residential Solutions">
+    </section>
+    <section class="section" data-aos="fade-left">
+        <div class="section-content">
+            <h2>Commercial Spaces</h2>
+            <p>Transform your workspace with our professional commercial design services tailored to your business needs.</p>
         </div>
-        <div class="row service-step" data-aos="fade-right">
-            <div class="col-lg-6">
-                <img src="https://via.placeholder.com/300" alt="Space Planning">
-            </div>
-            <div class="col-lg-6 text-content">
-                <h4>Space Planning and Layout Design</h4>
-                <p>We develop detailed layouts to maximize functionality and aesthetic appeal.</p>
-            </div>
+        <img src="images/your-image2.jpg" alt="Commercial Spaces">
+    </section>
+    <section class="section" data-aos="fade-right">
+        <img src="images/your-image3.jpg" alt="Renovations">
+        <div class="section-content">
+            <h2>Renovations</h2>
+            <p>Revitalize your home with our expert renovation services that blend functionality with style.</p>
         </div>
-        <div class="row service-step" data-aos="fade-left">
-            <div class="col-lg-6">
-                <img src="https://via.placeholder.com/300" alt="Material Selection">
-            </div>
-            <div class="col-lg-6 text-content">
-                <h4>Material and Finish Selection</h4>
-                <p>Our team helps you choose the best materials and finishes for your project.</p>
-            </div>
-        </div>
-        <div class="row service-step" data-aos="fade-right">
-            <div class="col-lg-6">
-                <img src="https://via.placeholder.com/300" alt="Project Execution">
-            </div>
-            <div class="col-lg-6 text-content">
-                <h4>Project Execution and Management</h4>
-                <p>We manage the entire project to ensure timely and flawless execution.</p>
-            </div>
-        </div>
-    </div>
+    </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            duration: 1000,
+        });
     </script>
 </body>
-
 </html>
