@@ -450,7 +450,7 @@
 
 
 <!--commercial-->
-<section>
+<section class="portfolios mt-5">
 <div class="row justify-content-center pt-5">
     <div class="cl-xl-7 col-lg-8 col-md-10">
    
@@ -523,6 +523,225 @@
 </div>
 </section>
 
+
+
+
+<!--Renovation-->
+<section class="portfolios mt-5">
+<div class="row justify-content-center pt-5">
+    <div class="cl-xl-7 col-lg-8 col-md-10">
+   
+        <div class="section-tittle text-center">
+            <!-- <span style="color:#d9b078;" >Our Professional Services</span> -->
+            <h6 class="fw-bold col_brow font-14 heads">RENOVATION</h6>
+            <p>Transform your business space with our bespoke renovation design solutions</p>
+            
+        </div>
+    </div>
+</div>
+
+
+<section class="my-section">
+    <div class="left-side">
+        <h2 class="text-dark">Kitchen Remodeling</h2>
+        <p>Updating cabinetry, countertops, appliances, and flooring to create a more modern and functional kitchen.</p>
+    </div>
+    <div class="right-side">
+        <div class="image-container">
+            <img src="assets/img/hero/ugkit.png" alt="First Image" class="image1">
+            <div class="arrow"></div>
+            <img src="assets/img/hero/bgkit.png" alt="Second Image" class="image2">
+        </div>
+    </div>
+</section>
+
+<section class="my-section">
+    <div class="left-side">
+        <h2 class="text-dark">Bathroom Renovation</h2>
+        <p>Overhauling fixtures, tiles, vanities, and lighting to enhance the bathroom's aesthetic and functionality.</p>
+    </div>
+    <div class="right-side">
+        <div class="image-container">
+            <img src="assets/img/hero/ugbath.png" alt="First Image" class="image1">
+            <div class="arrow"></div>
+            <img src="assets/img/hero/bgbath.png" alt="Second Image" class="image2">
+        </div>
+    </div>
+</section>
+
+<section class="my-section">
+    <div class="left-side">
+        <h2 class="text-dark">Living Room Redesign</h2>
+        <p>Reworking furniture layout, adding built-ins, updating lighting, and painting to refresh the living space.</p>
+    </div>
+    <div class="right-side">
+        <div class="image-container">
+            <img src="assets/img/hero/ugliv.png" alt="First Image" class="image1">
+            <div class="arrow"></div>
+            <img src="assets/img/hero/bgliv.png" alt="Second Image" class="image2">
+        </div>
+    </div>
+</section>
+<section class="my-section">
+    <div class="left-side">
+        <h2 class="text-dark">Bedroom Makeover</h2>
+        <p>Changing the color scheme, upgrading furniture, and improving storage solutions to create a more comfortable and stylish bedroom.</p>
+    </div>
+    <div class="right-side">
+        <div class="image-container">
+            <img src="assets/img/hero/ugbed.png" alt="First Image" class="image1">
+            <div class="arrow"></div>
+            <img src="assets/img/hero/bgbed.png" alt="Second Image" class="image2">
+        </div>
+    </div>
+</section>
+<section class="my-section">
+    <div class="left-side">
+        <h2 class="text-dark">Interior Painting</h2>
+        <p>Refreshing walls with new paint colors or textures to update the look of any room.</p>
+    </div>
+    <div class="right-side">
+        <div class="image-container">
+            <img src="assets/img/hero/ugpaint.png" alt="First Image" class="image1">
+            <div class="arrow"></div>
+            <img src="assets/img/hero/bgpaint.png" alt="Second Image" class="image2">
+        </div>
+    </div>
+</section>
+<section class="my-section">
+    <div class="left-side">
+        <h2 class="text-dark">Lighting Enhancements</h2>
+        <p>Adding new light fixtures, recessed lighting, or chandeliers to improve the ambiance and functionality of a space.</p>
+    </div>
+    <div class="right-side">
+        <div class="image-container">
+            <img src="assets/img/hero/uglight.png" alt="First Image" class="image1">
+            <div class="arrow"></div>
+            <img src="assets/img/hero/bglight.png" alt="Second Image" class="image2">
+        </div>
+    </div>
+</section>
+<section class="my-section">
+    <div class="left-side">
+        <h2 class="text-dark">Flooring Upgrades</h2>
+        <p>Replacing old carpets with hardwood, laminate, or tile flooring for a fresh look and improved durability.</p>
+    </div>
+    <div class="right-side">
+        <div class="image-container">
+            <img src="assets/img/hero/ugfloor.png" alt="First Image" class="image1">
+            <div class="arrow"></div>
+            <img src="assets/img/hero/bgfloor.png" alt="Second Image" class="image2">
+        </div>
+    </div>
+</section>
+
+</section>
+<style>
+    /* General Styles */
+
+
+.my-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-side {
+    flex: 1;
+    padding: 10px;
+}
+
+.right-side {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.image1, .image2 {
+    width: 45%;
+    height: auto;
+}
+
+.arrow {
+    width: 50px;
+    height: 30px;
+    background: url('assets/img/hero/arr.png') no-repeat center center;
+    background-size: contain;
+    animation: moveArrowHorizontal 2s infinite;
+    margin: 0 15px; /* Adjust margin to create space between images */
+}
+
+/* Horizontal Animation for Arrow */
+@keyframes moveArrowHorizontal {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(15px); /* Adjust to move arrow in the middle of the gap */
+    }
+    100% {
+        transform: translateX(30px); /* Adjust to ensure arrow stays within the gap */
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .my-section {
+        flex-direction: column;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .image1, .image2 {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .arrow {
+        width: 30px;
+        height: 50px;
+        background: url('assets/img/hero/arrdown.png') no-repeat center center;
+        background-size: contain;
+        margin: 10px 0;
+        animation: moveArrowVertical 2s infinite; /* Use vertical animation */
+    }
+}
+
+/* Vertical Animation for Arrow in Mobile */
+@keyframes moveArrowVertical {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px); /* Adjust according to desired gap */
+    }
+    100% {
+        transform: translateY(40px); /* Adjust according to desired gap */
+    }
+}
+
+</style>
 
   <!-- <div class="portfolio mt-5">
         <div class="tabs">
