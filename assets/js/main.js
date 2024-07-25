@@ -243,3 +243,104 @@
 
 
 })(jQuery);
+
+
+/* herovectordispp*/
+
+    const images = document.querySelectorAll('.image-section img');
+    let currentIndex = 0;
+
+    function changeImage() {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % images.length;
+        images[currentIndex].classList.add('active');
+    }
+
+    setInterval(changeImage, 3000);
+/* herovectordispp*/
+
+
+
+function startImageSlider(section) {
+    const images = section.querySelectorAll('.image-section img');
+    let currentIndex = 0;
+
+    function changeImage() {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % images.length;
+        images[currentIndex].classList.add('active');
+    }
+
+    setInterval(changeImage, 3000);
+}
+
+document.querySelectorAll('.container').forEach(startImageSlider);
+/* herovectordispp*/
+
+/*commercial*/
+
+document.addEventListener('DOMContentLoaded', () => {
+    const container = document.querySelector('.scroll-container');
+    const scrollDuration = 1000; // Duration for smooth scroll (in milliseconds)
+    const scrollInterval = 5000; // Interval for auto-scroll (in milliseconds)
+    const sections = document.querySelectorAll('.scroll-section');
+    const numSections = sections.length;
+    let currentIndex = 0;
+
+    const smoothScroll = (targetLeft) => {
+        const startLeft = container.scrollLeft;
+        const distance = targetLeft - startLeft;
+        let startTime = null;
+
+        const animation = (currentTime) => {
+            if (startTime === null) startTime = currentTime;
+            const timeElapsed = currentTime - startTime;
+            const progress = Math.min(timeElapsed / scrollDuration, 1);
+
+            container.scrollLeft = startLeft + (distance * progress);
+
+            if (timeElapsed < scrollDuration) {
+                window.requestAnimationFrame(animation);
+            }
+        };
+
+        window.requestAnimationFrame(animation);
+    };
+
+    const scrollToIndex = (index) => {
+        const containerWidth = container.clientWidth;
+        const scrollAmount = index * containerWidth;
+        smoothScroll(scrollAmount);
+    };
+
+    const scrollTo = (direction) => {
+        if (direction === 'next') {
+            currentIndex = (currentIndex + 1) % numSections;
+        } else if (direction === 'prev') {
+            currentIndex = (currentIndex - 1 + numSections) % numSections;
+        }
+        scrollToIndex(currentIndex);
+    };
+
+    let autoScrollInterval = setInterval(() => {
+        scrollTo('next');
+    }, scrollInterval);
+
+    document.getElementById('prevBtn').addEventListener('click', () => {
+        scrollTo('prev');
+        clearInterval(autoScrollInterval); // Stop auto-scroll on manual interaction
+        autoScrollInterval = setInterval(() => {
+            scrollTo('next');
+        }, scrollInterval);
+    });
+
+    document.getElementById('nextBtn').addEventListener('click', () => {
+        scrollTo('next');
+        clearInterval(autoScrollInterval); // Stop auto-scroll on manual interaction
+        autoScrollInterval = setInterval(() => {
+            scrollTo('next');
+        }, scrollInterval);
+    });
+});
+
+  /*commercial*/
