@@ -3,35 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Living Room Section</title>
+    <title>Interior Design Services</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
+            padding: 0;
         }
         .container {
             display: flex;
             width: 80%;
             justify-content: space-between;
             align-items: center;
+            margin: 2rem auto;
+            flex-wrap: wrap;
+        }
+        .text-section,
+        .image-section {
+            flex: 1;
+            min-width: 300px; /* Ensures sections don't get too narrow */
+            box-sizing: border-box;
         }
         .text-section {
-            width: 45%;
+            margin-right: 1rem;
         }
         .image-section {
-            width: 45%;
+            position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
-            position: relative;
+            height: 200px; /* Adjust height as needed */
+            overflow: hidden;
         }
         .image-section img {
             width: 100%;
-            max-width: 400px;
+            height: auto;
             position: absolute;
             opacity: 0;
             transition: opacity 1s ease-in-out;
@@ -39,39 +45,86 @@
         .image-section img.active {
             opacity: 1;
         }
-    </style>
 
-    
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                width: 100%;
+                margin: 1rem auto;
+            }
+            .text-section,
+            .image-section {
+                width: 100%;
+                margin: 0;
+                min-width: 0; /* Resets min-width */
+            }
+            .image-section {
+                height: auto; /* Adjust to fit content */
+            }
+        }
+    </style>
 </head>
 <body>
-
+    <!-- Living Room Section -->
     <div class="container">
         <div class="text-section">
-            <h1>Living Room</h1>
+            <h1 class="text-dark">Living Room</h1>
             <p>Transform your living space into a modern and stylish area with our expert interior design services.</p>
             <p>We offer customized solutions to fit your style and budget.</p>
             <p>Experience comfort and elegance with our designs.</p>
         </div>
         <div class="image-section">
-            <img src="assets/img/service-images/1.png" alt="Living Room Image 1" class="active">
-            <img src="assets/img/service-images/2.png" alt="Living Room Image 2">
-            <img src="assets/img/service-images/3.png" alt="Living Room Image 3">
+            <img src="assets/img/hero/pic0.png" alt="Living Room Image 1" class="active">
+            <img src="assets/img/hero/pic2.png" alt="Living Room Image 2">
+            <img src="assets/img/hero/pic3.png" alt="Living Room Image 3">
+        </div>
+    </div>
+
+    <!-- Bedroom Section -->
+    <div class="container">
+        <div class="text-section">
+            <h1 class="text-dark">Bedroom</h1>
+            <p>Create a serene and cozy bedroom retreat with our design expertise.</p>
+            <p>We design personalized bedroom spaces to suit your taste and lifestyle.</p>
+            <p>Experience tranquility and style with our bedroom designs.</p>
+        </div>
+        <div class="image-section">
+            <img src="assets/img/bedroom/bedroom1.png" alt="Bedroom Image 1" class="active">
+            <img src="assets/img/bedroom/bedroom2.png" alt="Bedroom Image 2">
+            <img src="assets/img/bedroom/bedroom3.png" alt="Bedroom Image 3">
+        </div>
+    </div>
+
+    <!-- Kitchen Section -->
+    <div class="container">
+        <div class="text-section">
+            <h1 class="text-dark">Kitchen</h1>
+            <p>Upgrade your kitchen with our modern and functional designs.</p>
+            <p>We offer customized kitchen solutions to meet your culinary needs.</p>
+            <p>Experience efficiency and style with our kitchen designs.</p>
+        </div>
+        <div class="image-section">
+            <img src="assets/img/kitchen/kitchen1.png" alt="Kitchen Image 1" class="active">
+            <img src="assets/img/kitchen/kitchen2.png" alt="Kitchen Image 2">
+            <img src="assets/img/kitchen/kitchen3.png" alt="Kitchen Image 3">
         </div>
     </div>
 
     <script>
-        const images = document.querySelectorAll('.image-section img');
-        let currentIndex = 0;
+        function startImageSlider(section) {
+            const images = section.querySelectorAll('.image-section img');
+            let currentIndex = 0;
 
-        function changeImage() {
-            images[currentIndex].classList.remove('active');
-            currentIndex = (currentIndex + 1) % images.length;
-            images[currentIndex].classList.add('active');
+            function changeImage() {
+                images[currentIndex].classList.remove('active');
+                currentIndex = (currentIndex + 1) % images.length;
+                images[currentIndex].classList.add('active');
+            }
+
+            setInterval(changeImage, 3000);
         }
 
-        setInterval(changeImage, 3000);
+        document.querySelectorAll('.container').forEach(startImageSlider);
     </script>
-
-
 </body>
 </html>

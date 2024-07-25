@@ -243,3 +243,36 @@
 
 
 })(jQuery);
+
+
+/* herovectordispp*/
+
+    const images = document.querySelectorAll('.image-section img');
+    let currentIndex = 0;
+
+    function changeImage() {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % images.length;
+        images[currentIndex].classList.add('active');
+    }
+
+    setInterval(changeImage, 3000);
+/* herovectordispp*/
+
+
+
+function startImageSlider(section) {
+    const images = section.querySelectorAll('.image-section img');
+    let currentIndex = 0;
+
+    function changeImage() {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % images.length;
+        images[currentIndex].classList.add('active');
+    }
+
+    setInterval(changeImage, 3000);
+}
+
+document.querySelectorAll('.container').forEach(startImageSlider);
+/* herovectordispp*/
