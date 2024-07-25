@@ -361,20 +361,107 @@
     }
     
         </style>
-<section class="pb-5" style="background-color:white
-;">
+
+
+
+
+<section class="pb-5" style="background-color:white;">
 <div class="row justify-content-center pt-3">
     <div class="cl-xl-7 col-lg-8 col-md-10">
-        <!-- Section Tittle -->
+   
         <div class="section-tittle text-center">
-            <span style="color:#d9b078;" >Our Professional Services</span>
-            <h2 style="color:#012c3d;">Best Interior Services</h2>
+            <!-- <span style="color:#d9b078;" >Our Professional Services</span> -->
+            <h6 class="fw-bold col_brow font-14 heads">MAJOR HOME INTERIORS</h6>
             
         </div>
     </div>
 </div>
     
-    <div class="portfolio mt-5">
+
+
+<div class="container containers">
+    <div class="text-section">
+        <h1 class="text-dark">Living Room</h1>
+        <p>Transform your living space into a modern and stylish area with our expert interior design services.</p>
+        <p>We offer customized solutions to fit your style and budget.</p>
+        <p>Experience comfort and elegance with our designs.</p>
+    </div>
+    <div class="image-section">
+        <img src="assets/img/service-images/1.png" alt="Living Room Image 1" class="active">
+        <img src="assets/img/service-images/2.png" alt="Living Room Image 2">
+        <img src="assets/img/service-images/3.png" alt="Living Room Image 3">
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    const images = document.querySelectorAll('.image-section img');
+    let currentIndex = 0;
+
+    function changeImage() {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % images.length;
+        images[currentIndex].classList.add('active');
+    }
+
+    setInterval(changeImage, 3000);
+</script>
+
+<style>
+    /* body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    } */
+    .containers {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .text-section {
+        width: 45%;
+    }
+    .image-section {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .image-section img {
+        width: 100%;
+        max-width: 400px;
+        position: absolute;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+    .image-section img.active {
+        opacity: 1;
+    }
+</style>
+
+
+  
+
+
+ 
+
+</section>
+
+  <!-- <div class="portfolio mt-5">
         <div class="tabs">
             <button class="tablink active" onclick="openTab('all')">All</button>
             <button class="tablink" onclick="openTab('renovation')">Renovation</button>
@@ -385,7 +472,7 @@
         
         <div id="all" class="tabcontent active" >
             <div class="image-section">
-                <!-- Insert images here for all categories -->
+               
                 <div class="image-item">
                     <img src="assets/img/service-images/1.png" alt="Residential Image 2">
                 </div>
@@ -395,10 +482,10 @@
                 <div class="image-item">
                     <img src="assets/img/service-images/3.png" alt="Residential Image 2">
                 </div>
-                <!-- Add more images as needed -->
+               
             </div>
             <div class="image-section">
-                <!-- Insert images here for all categories -->
+                
                 <div class="image-item">
                     <img src="assets/img/service-images/4.png" alt="Residential Image 2">
                 </div>
@@ -420,10 +507,10 @@
         <div id="renovation" class="tabcontent">
             
 
-                <!-- Add more images as needed -->
+            
           
             <div class="image-section">
-                <!-- Insert images here for renovation -->
+               
                 <div class="image-item">
                     <img src="assets/img/service-images/7.png" alt="Renovation Image 1">
                 </div> 
@@ -436,7 +523,7 @@
                 </div>
 
 
-                <!-- Add more images as needed -->
+              
             </div>
         </div>
     
@@ -444,7 +531,7 @@
         <div id="commercial" class="tabcontent">
            
             <div class="image-section">
-                <!-- Insert images here for commercial -->
+               
                 <div class="image-item">
                     <img src="assets/img/service-images/1.png" alt="Commercial Image 1">
                 </div>
@@ -463,7 +550,7 @@
         <div id="residential" class="tabcontent">
             
             <div class="image-section">
-                <!-- Insert images here for residential -->
+               
                 <div class="image-item">
                     <img src="assets/img/service-images/4.png" alt="Residential Image 1">
                 </div>
@@ -476,15 +563,9 @@
                 </div>
             </div>
             </div>
-        </div>
-
-
-    </div>
-    </div>
-
-</section>
+        </div> -->
     
-    <script>
+    <!-- <script>
     function openTab(tabName) {
         var i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabcontent");
@@ -499,14 +580,14 @@
         }
         event.currentTarget.classList.add("active");
     
-        // Update underline position
+   
         var underline = document.querySelector('.tab-underline');
         var activeButton = document.querySelector('.tablink.active');
         underline.style.left = activeButton.offsetLeft + 'px';
         underline.style.width = activeButton.offsetWidth + 'px';
     }
     
-    // Set initial underline position
+ 
     document.addEventListener("DOMContentLoaded", function() {
         var underline = document.querySelector('.tab-underline');
         var activeButton = document.querySelector('.tablink.active');
@@ -514,7 +595,7 @@
         underline.style.width = activeButton.offsetWidth + 'px';
     });
     
-    // Image hover animation
+  
     const imageItems = document.querySelectorAll('.image-item');
     imageItems.forEach(item => {
         item.addEventListener('mouseover', () => {
@@ -525,7 +606,7 @@
             item.querySelector('img').classList.remove('image-hover');
         });
     });
-    </script>
+    </script> -->
 
 
 
