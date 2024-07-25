@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Living Room Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .text-section {
+            width: 45%;
+        }
+        .image-section {
+            width: 45%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .image-section img {
+            width: 100%;
+            max-width: 400px;
+            position: absolute;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        .image-section img.active {
+            opacity: 1;
+        }
+    </style>
+
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="text-section">
+            <h1>Living Room</h1>
+            <p>Transform your living space into a modern and stylish area with our expert interior design services.</p>
+            <p>We offer customized solutions to fit your style and budget.</p>
+            <p>Experience comfort and elegance with our designs.</p>
+        </div>
+        <div class="image-section">
+            <img src="assets/img/service-images/1.png" alt="Living Room Image 1" class="active">
+            <img src="assets/img/service-images/2.png" alt="Living Room Image 2">
+            <img src="assets/img/service-images/3.png" alt="Living Room Image 3">
+        </div>
+    </div>
+
+    <script>
+        const images = document.querySelectorAll('.image-section img');
+        let currentIndex = 0;
+
+        function changeImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+
+        setInterval(changeImage, 3000);
+    </script>
+
+
+</body>
+</html>
