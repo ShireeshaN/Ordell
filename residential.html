@@ -1,139 +1,583 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ordell Interiors</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Include AOS CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
-    <!-- Include Bootstrap CSS for easier styling -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Include Fancybox CSS for image gallery -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
-</head>
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Ordell Interior</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/hero/logoord.png">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-<body>
 
-    <div class="container py-5">
-        <!-- Residential Section -->
-        <div class="service-section" id="residential" data-aos="fade-up">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="service-details">
-                        <h2 class="service-title">Residential</h2>
-                        <p>Your home is your sanctuary. We design residential spaces that are not only beautiful but also
-                            functional and personalized to your unique lifestyle.</p>
-                        <p>Our residential services include:</p>
-                        <ul>
-                            <li>Interior design consultation</li>
-                            <li>Space planning and layout</li>
-                            <li>Furniture selection and arrangement</li>
-                            <li>Custom cabinetry and millwork</li>
-                            <li>Lighting design</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="image-gallery">
-                        <a href="path/to/residential-image1.jpg" data-fancybox="residential">
-                            <img src="path/to/residential-image1.jpg" class="img-fluid rounded gallery-img" alt="Residential 1">
-                        </a>
-                        <a href="path/to/residential-image2.jpg" data-fancybox="residential">
-                            <img src="path/to/residential-image2.jpg" class="img-fluid rounded gallery-img" alt="Residential 2">
-                        </a>
-                        <a href="path/to/residential-image3.jpg" data-fancybox="residential">
-                            <img src="path/to/residential-image3.jpg" class="img-fluid rounded gallery-img" alt="Residential 3">
-                        </a>
-                        <!-- Add more images as needed -->
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Commercial Section -->
-        <div class="service-section" id="commercial" data-aos="fade-up">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="image-gallery">
-                        <a href="path/to/commercial-image1.jpg" data-fancybox="commercial">
-                            <img src="path/to/commercial-image1.jpg" class="img-fluid rounded gallery-img" alt="Commercial 1">
-                        </a>
-                        <a href="path/to/commercial-image2.jpg" data-fancybox="commercial">
-                            <img src="path/to/commercial-image2.jpg" class="img-fluid rounded gallery-img" alt="Commercial 2">
-                        </a>
-                        <a href="path/to/commercial-image3.jpg" data-fancybox="commercial">
-                            <img src="path/to/commercial-image3.jpg" class="img-fluid rounded gallery-img" alt="Commercial 3">
-                        </a>
-                        <!-- Add more images as needed -->
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="service-details">
-                        <h2 class="service-title">Commercial</h2>
-                        <p>Transform your commercial space into a stylish and efficient environment that inspires
-                            productivity and impresses clients.</p>
-                        <p>Our commercial services include:</p>
-                        <ul>
-                            <li>Office space design</li>
-                            <li>Retail store layout</li>
-                            <li>Restaurant and cafe interiors</li>
-                            <li>Corporate branding through design</li>
-                            <li>Ergonomic furniture solutions</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+		<!-- CSS here -->
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="assets/css/slicknav.css">
+            <link rel="stylesheet" href="assets/css/flaticon.css">
+            <link rel="stylesheet" href="assets/css/animate.min.css">
+            <link rel="stylesheet" href="assets/css/magnific-popup.css">
+            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="assets/css/themify-icons.css">
+            <link rel="stylesheet" href="assets/css/slick.css">
+            <link rel="stylesheet" href="assets/css/nice-select.css">
+            <link rel="stylesheet" href="assets/css/style.css">
 
-        <!-- Renovation Section -->
-        <div class="service-section" id="renovation" data-aos="fade-up">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="service-details">
-                        <h2 class="service-title">Renovation</h2>
-                        <p>Breathe new life into your space with our renovation services. We bring creativity and
-                            precision to every project, big or small.</p>
-                        <p>Our renovation services include:</p>
-                        <ul>
-                            <li>Complete home remodels</li>
-                            <li>Kitchen and bathroom renovations</li>
-                            <li>Basement finishing</li>
-                            <li>Historical restorations</li>
-                            <li>Exterior upgrades</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="image-gallery">
-                        <a href="path/to/renovation-image1.jpg" data-fancybox="renovation">
-                            <img src="path/to/renovation-image1.jpg" class="img-fluid rounded gallery-img" alt="Renovation 1">
-                        </a>
-                        <a href="path/to/renovation-image2.jpg" data-fancybox="renovation">
-                            <img src="path/to/renovation-image2.jpg" class="img-fluid rounded gallery-img" alt="Renovation 2">
-                        </a>
-                        <a href="path/to/renovation-image3.jpg" data-fancybox="renovation">
-                            <img src="path/to/renovation-image3.jpg" class="img-fluid rounded gallery-img" alt="Renovation 3">
-                        </a>
-                        <!-- Add more images as needed -->
-                    </div>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   </head>
+
+   <body class="body-bg">
+    <!--? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/hero/logoord.png" alt="">
                 </div>
             </div>
         </div>
     </div>
+    <header>
+        <!-- Header Start -->
+        <div class="header-area header-transparent">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index.html"><img class="imgsizes" src="assets/img/hero/logoord.png" alt=""></a>
+                        </div>
+                        <!-- Main-menu -->
+                        <div class="main-menu f-right d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <ul class="submenu">
+                                        <li><a href="residential.html">Blog</a></li>
+                                        <li><a href="renovations.html">Blog Details</a></li>
+                                        <li><a href="commercial.html">Elements</a></li>
+                                    </ul>
+                                    <li><a href="work.html">Gallery</a></li>
+                                    <li><a href="blog.html">Blog</a>
+                                        <ul class="submenu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog_details.html">Blog Details</a></li>
+                                            <li><a href="elements.html">Elements</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>          
+                        <!-- Header-btn -->
+                        <div class="header-btns d-none d-lg-block f-right">
+                            
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <main>
+        <!--? Hero Start -->
+        <div class="slider-area2">
+            <div class="slider-height2 hero-overly d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap hero-cap2 text-center pt-80">
+                                <h2>About Us</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+       
 
-    <!-- Include AOS JS -->
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+
+
+        
+
+
+
+    
+
+
+    <section class="pb-5" style="background-color:white;">
+        <div class="row justify-content-center pt-3 pb-5">
+            <div class="cl-xl-7 col-lg-8 col-md-10">
+                <h2 class="text-center " style="color:#d9b078; font-weight: bold;"> End to End Residential</h2>
+    <p class="text-center pb-4" style="color:#000000;">From Concept to Completion, We've Got Your Home Covered</p>
+           
+                
+            </div>
+        </div>
+            
+        
+        <div class="container containers pt-5">
+            <div class="text-section pb-5">
+                
+                <h1 class="text-dark">Consultation and Planning</h1>
+                <div class="d-flex ">
+                <img src="assets/img/service-images/Picture10.png" class="pr-2  img-li">
+                <p>At Ordell Interiors, we believe that every successful project begins with a deep understanding of your vision and needs.</p>
+                </div>
+                
+            </div>
+            <div class="image-section pb-5 pt-5 mb-5">
+                <img src="assets/img/service-images/Picture5.png" alt="Living Room Image 1">
+                
+            </div>
+        </div>
+        
+        <div class="container containers pt-5">
+           
+            <div class="image-section mt-5 pt-5 mb-5">
+               
+                <img src="assets/img/service-images/Picture6.png" alt="Living Room Image 1">
+   
+            </div>
+            <div class="text-section pt-5 mt-5">
+                <h1 class="text-dark mt0">Design and Architecture</h1>
+                <div class="d-flex">
+                <img src="assets/img/service-images/Picture11.png" class="pr-2 img-li">
+                <p>At Ordell Interiors, our expert designers and architects collaborate to create spaces that are both stunning and functional. </p>
+               </div>
+                
+            </div>
+           
+        </div>
+        
+        <div class="container containers pt-5 pb-5">
+            <div class="text-section pb-5 mb-5 pt-5 mt-5">
+                <h1 class="text-dark mt0">Construction and Renovation</h1>
+                <div class="d-flex">
+                <img src="assets/img/service-images/Picture12.png" class="pr-2 img-li">
+                <p>At Ordell Interiors, our construction and renovation services are designed to transform your space with quality craftsmanship and attention to detail.  </p>
+               </div>
+            </div>
+            <div class="image-section pb-5 pt-5 mb-5">
+                <img src="assets/img/service-images/Picture7.png" alt="Living Room Image 1" >
+              
+            </div>
+        </div>
+
+
+        <div class="container containers pt-5">
+           
+            <div class="image-section mt-5 pt-5 mb-5">
+               
+                <img src="assets/img/service-images/Picture8.png" alt="Living Room Image 1">
+   
+            </div>
+            <div class="text-section pt-5 mt-5">
+                <h1 class="text-dark mt0">Interior Design and Furnishing</h1>
+                <div class="d-flex">
+                <img src="assets/img/service-images/Picture10.png" class="pr-2 img-li">
+                <p>Ordell Interiors specializes in creating beautiful and functional interiors tailored to your unique taste. Our interior design and furnishing services blend aesthetics with practicality, ensuring each space is both stylish and comfortable </p>
+               </div>
+            </div>
+            </div>
+           
+        </div>
+
+
+        <div class="container containers pt-5 pb-5">
+            <div class="text-section pb-5 mb-5 pt-5 mt-5">
+                <h1 class="text-dark mt0">Project Management</h1>
+                <div class="d-flex">
+                <img src="assets/img/service-images/Picture11.png" class="pr-2 img-li">
+                <p>At Ordell Interiors, our project management services ensure your project is completed on time, within budget, and to the highest standards. </p>
+               </div>
+            </div>
+            <div class="image-section pb-5 pt-5 mb-5">
+                <img src="assets/img/service-images/Picture9.png" alt="Living Room Image 1" >
+              
+            </div>
+        </div>
+        
+        <script>
+            function startImageSlider(section) {
+                const images = section.querySelectorAll('.image-section img');
+                let currentIndex = 0;
+        
+                function changeImage() {
+                    images[currentIndex].classList.remove('active');
+                    currentIndex = (currentIndex + 1) % images.length;
+                    images[currentIndex].classList.add('active');
+                }
+        
+                setInterval(changeImage, 3000);
+            }
+        
+            document.querySelectorAll('.container').forEach(startImageSlider);
+        </script>
+        </section>
+
+
+        <style>
+    .containers {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+            .text-section {
+    width: 45%;
+}
+.image-section {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.image-section img {
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.image-section img.active {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .text-section,
+    .image-section {
+        width: 100%;
+    }
+    .image-section img {
+        max-width: 100%;
+    }
+}
+        </style>
+    
+
+
+    
+
+
+<style>
+    .service-step {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #e3e3e3;
+        border-radius: 1px;
+        background-color: #f9f9f9;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        flex: 1;
+    }
+    .service-step img {
+        max-width: 240px; /* Increased the image size */
+        margin-bottom: 15px;
+        background-color:#333 ;
+        border-radius: 1px;
+    }
+    .service-step:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .service-step h4 {
+        color: #1f2b7b;
+        margin-bottom: 10px;
+    }
+    .service-step p {
+        color: #333;
+    }
+    .services-container {
+        display: flex;
+        
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+    @media (max-width: 576px) {
+        .service-step {
+            margin: 5px;
+            padding: 15px;
+        }
+    }
+</style>
+
+
+
+<div class="row " data-aos="fade-right">
+    <div class="col-lg-6 text-center mb-4">
+        <img class="img-size" src="assets/img/service-images/Picture1.png" alt="Initial Consultation">
+    </div>
+    <div class="col-lg-6 text-content">
+        <h4 class="ord-h">Meet Your Designer</h4>
+        <p class="ord-p"><i class="fa-solid fa-circle-check pr-2" style="color: #d9b078;"></i>Start Your Journey with a Form</p>
+        <div class="ml-5">
+        <p class="text-dark">Tell us about yourself. The more we understand your needs, the better we can create your perfect home.</p>
+        <button class="p-3 text-dark ordell-btn " >COMPLETE YOUR FORM</button>
+        </div>
+        <p class="ord-p pt-3"><i class="fa-solid fa-circle-check pr-2" style="color: #d9b078;"></i>Receive a Complimentary Consultation</p>
+        <div class="ml-5">
+        <p class="text-dark">Discuss with our designer to receive customized designs and a quote for your ideal home.</p>
+        </div>
+    </div>
+</div>
+<div class="row " data-aos="fade-left">
+    <div class="col-lg-6  text-center mb-4">
+        <img class="img-size" src="assets/img/service-images/Picture2.png" alt="Concept Development">
+    </div>
+    <div class="col-lg-6 text-content">
+        <h4 class="ord-h">Secure Your Project with a Booking Fee</h4>
+        <p class="ord-p"><i class="fa-solid fa-circle-check pr-2" style="color: #d9b078;"></i>Confirmation</p>
+        <div class="ml-5">
+        <p class="text-dark">When you're satisfied with our proposal, lock in your project by paying 5% of the final quote* or Rs.25,000 (whichever is greater).</p>
+        </div>
+        <p class="ord-p pt-3"><i class="fa-solid fa-circle-check pr-2" style="color: #d9b078;"></i>Finalize Your Home Design</p>
+        <div class="ml-5">
+        <p class="text-dark">Dive into the details and select your preferred materials and finishes.</p>
+        </div>
+    </div>
+</div>
+<div class="row " data-aos="fade-right">
+    <div class="col-lg-6 text-center mb-3">
+        <img class="img-size" src="assets/img/service-images/Picture3.png" alt="Space Planning">
+    </div>
+    <div class="col-lg-6 text-content">
+        <h4 class="ord-h">Initiate Your Order</h4>
+        <p class="ord-p"><i class="fa-solid fa-circle-check pr-2" style="color: #d9b078;"></i>Milestone</p>
+        <div class="ml-5">
+        <p class="text-dark">Begin the order process by making a 50% payment. Finalize the design, and your project is officially underway.</p>
+        </div>
+        <p class="ord-p pt-3"><i class="fa-solid fa-circle-check pr-2" style="color: #d9b078;"></i>Project Kickoff</p>
+        <div class="ml-5">
+        <p class="text-dark">Civil work starts on-site. Track your project progress through 'My Account'.</p>
+        </div>
+    </div>
+</div>
+
+<div style="background-color:#d9b078 ; font-size: 24px; font-weight: bold;" class="p-3 text-center ">
+    <i class="fa-solid fa-circle-check pr-3"></i>You're halfway there. Your orders have been placed!
+</div>
+
+
+<div class="row " data-aos="fade-right">
+    <div class="col-lg-6 text-center mt-5 mb-5">
+        <img class="img-size" src="assets/img/service-images/Picture4.png" alt="Space Planning">
+    </div>
+    <div class="col-lg-6 text-content mt-5 mb-5">
+        <h4 class="ord-h">Move In!</h4>
+        <p class="ord-p"><i class="fa-solid fa-circle-check pr-2" style="color: #d9b078;"></i>Your dream home is now a reality! It's time to create new memories. Enjoy a complimentary professional photoshoot session of your OrdellHome.</p>
+       
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+               
+    </main>
+    <footer>
+        <!--? Footer Start-->
+        <div class="footer-area footer-bg ">
+            <div class="container">
+                <div class="footer-top pt-5">
+                    <div class="row d-flex justify-content-between">
+
+                        <div class="col-lg-4 col-md-5 col-sm-8">
+                            <div class="single-footer-caption ">
+                                <!-- logo -->
+                                <div class="footer-logo footer-tittle">
+                                    <!-- <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a> -->
+                                    <h5>Address</h5>
+                                </div>
+                                
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        
+                                            <p class="text-white"><i class="fa fa-map-marker-alt p-2" style="color:#fecb38;"></i>Lakshmi Narasimhaswamy Nagar,
+                                                Puppalguda road,Manikonda,
+                                                Hyderabad,
+                                                 Telangana - 500089 </p>
+                                    </div>
+                                </div>
+                                <div class="footer-number">
+                                    <h4 style="color:#fecb38;"><span>+955 </span>0715185</h4>
+                                    <h4 style="color:#fecb38;"><span>+994 </span>9999129</h4>
+                                   
+                                    <p><i class="fa fa-envelope" style="color:#fecb38;"></i> Ordellinteriors@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-lg-2 col-md-5 col-sm-6 ">
+                            <div class="single-footer-caption mb-50 ">
+                                <div class="footer-tittle">
+                                    <h5>Useful Links</h5>
+                                </div>
+                                <div class="pb-2">
+                                <a href="index.html">Home</a><br/></div>
+                                <div class="pb-2">
+                                <a href="about.html">About Us</a><br/></div>
+                                <div class="pb-2">
+                                <a href="service.html">Our Services</a><br/></div>
+                                <div class="pb-2">
+                                <a href="work.html">Design Gallery</a><br/></div>
+                                <div class="pb-2">
+                                <a href="contact.html">Contact Us</a></div>
+                              
+                            </div>
+                        </div>
+
+                        <div class=" col-lg-2 col-md-5 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h5>Services</h5>
+                                </div>
+                                <div class="pb-2">
+                                    <a href="residential.html">Residential</a><br/></div>
+                                    <div class="pb-2">
+                                    <a href="commercial.html">Commercial</a><br/></div>
+                                    <div class="pb-2">
+                                    <a href="renovations.html">Renovation</a><br/></div>
+                                    
+                              
+                            </div>
+                        </div>
+                        <!-- Instagram -->
+
+
+                        <div class="col-lg-3 col-md-5 col-sm-7">
+                            <div class="single-footer-caption">
+                                <div class="footer-tittle">
+                                
+                                    
+                                </div>
+                                        <a href="index.html"><img class="imgsizes1" src="assets/img/hero/logoord.png" alt=""></a> 
+                                <!-- <div class="instagram-gellay">
+                                    <ul class="insta-feed">
+                                        <li><a href="#"><img src="assets/img/gallery/instagram1.png" alt=""></a></li>
+                                        <li><a href="#"><img src="assets/img/gallery/instagram2.png" alt=""></a></li>
+                                        <li><a href="#"><img src="assets/img/gallery/instagram3.png" alt=""></a></li>
+                                        <li><a href="#"><img src="assets/img/gallery/instagram4.png" alt=""></a></li>
+                                        <li><a href="#"><img src="assets/img/gallery/instagram5.png" alt=""></a></li>
+                                        <li><a href="#"><img src="assets/img/gallery/instagram6.png" alt=""></a></li>
+                                    </ul>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="footer-bottom pt-0 pb-2 mt-0">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-xl-9 col-lg-8">
+                            <div class="footer-copy-right">
+                                <p>
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    Copyright &copy;
+                                    <script>
+                                        document.write(new Date().getFullYear());
+                                    </script> All rights reserved | Designed by | <a href="https://thepatternscompany.com/" target="_blank">The Patterns Company</a>
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+                            <!-- Footer Social -->
+                            <div class="footer-social f-right">
+                                <span>Follow Us</span>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fas fa-globe"></i></a>
+                                <a href="https://www.instagram.com/ordell_designstudio?igsh=Mjg3ZTBqeWhxcWRp"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top" >
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <!-- JS here -->
+		<!-- All JS Custom Plugins Link Here here -->
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+	    <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+		<!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+		<!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/wow.min.js"></script>
+		<script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+		<!-- Nice-select, sticky -->
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+		<script src="./assets/js/jquery.sticky.js"></script>
+        
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+        
+		<!-- Jquery Plugins, main Jquery -->	
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+
+        <!-- AOS Library for animations -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <script src="https://kit.fontawesome.com/4905bcc1ac.js" crossorigin="anonymous"></script>
     <script>
         AOS.init();
     </script>
-    <!-- Include jQuery and Fancybox JS for image gallery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-    <!-- Include Bootstrap JS and dependencies -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-
+<script>
+    AOS.init({
+        duration: 1200,
+    });
+</script>
+        
+    </body>
 </html>
