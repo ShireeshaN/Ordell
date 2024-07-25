@@ -44,16 +44,16 @@
     <header>
         <!-- Header Start -->
         <div class="header-area header-transparent">
-            <div class="main-header header-sticky" style="background-color: white;" >
+            <div class="main-header header-sticky" style="background-color: #D5D5D5; ">
                 <div class="container-fluid">
-                    <div class="menu-wrapper d-flex align-items-center justify-content-start">
+                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
                         <!-- Logo -->
-                        <div class="logo">
+                        <div class="logo" style="margin-right: 20px;">
                             <a href="index.html"><img class="imgsizes" src="assets/img/hero/ordelllogonew.png" alt=""></a>
                         </div>
                         <!-- Main-menu -->
                         <div class="main-menu f-right d-none d-lg-block">
-                            <nav >
+                            <nav>
                                 <ul id="navigation">
                                     <li><a href="index.html" class="active text-dark">Home</a></li>
                                     <li><a href="about.html" class="text-dark">About</a></li>
@@ -76,10 +76,6 @@
                                 </ul>
                             </nav>
                         </div>
-                        <!-- Header-btn -->
-                        <!-- <div class="header-btns d-none d-lg-block f-right">
-                            <a href="#" class="btn header-btn ">Contact Us</a>
-                        </div> -->
                         <!-- Mobile Menu -->
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>
@@ -90,6 +86,7 @@
         </div>
         <!-- Header End -->
     </header>
+    
     
     <main>
 <!--? slider Area Start-->
@@ -102,8 +99,8 @@
                     <!-- Left Column for Header Text -->
                     <div class="col-xl-6 col-lg-6">
                         <div class="hero__caption">
-                            <span data-animation="fadeInLeft" data-delay=".4s">Welcome to Interior</span>
-                            <h1 data-animation="fadeInLeft" data-delay=".6s">Modern Interior & Design</h1>
+                           
+                            <h1 class="mainhead" data-animation="fadeInLeft" data-delay=".6s">Modern Interior & <br/>Design</h1>
                         </div>
                     </div>
                     <!-- Right Column for Contact Form -->
@@ -111,53 +108,42 @@
                         <div class="contact-form-container" data-animation="fadeInRight" data-delay=".8s">
                             <form action="#">
                                 <div class="form-group">
-                                    <label for="name">Name:</label>
+                                    <label class="text-dark" for="name">Name</label>
                                     <input  type="text" id="name" name="name" class="form-control" placeholder = 'Enter Your Name' required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="phone">Phone Number:</label>
+                                    <label class="text-dark" for="phone">Phone Number</label>
                                     <input type="tel" id="phone" name="phone" class="form-control" placeholder = 'Enter Your Phone Number' required>
                                 </div>
                                 <div class="form-group form-check">
                                     <input type="checkbox" id="whatsapp-updates" name="whatsapp-updates" class="form-check-input">
-                                    <label for="whatsapp-updates" class="form-check-label">Send me WhatsApp updates</label>
+                                    <label for="whatsapp-updates" class="form-check-label text-dark">Send me WhatsApp updates</label>
                                 </div>
-                                <button type="submit" class="btn btn-primary p-3">Get Free Quote</button>
+
+                               <div class="pt-3">
+                                <button type="submit" class="btn btn-dark text-white">Get Free Quote</button>
+                            </div>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Single Slider -->
-        <!-- <div class="single-slider slider-height hero-overly d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="hero__caption">
-                            <span data-animation="fadeInLeft" data-delay=".4s">Welcome to Intorior</span>
-                            <h1 data-animation="fadeInLeft" data-delay=".6s">Modern Interior & Design</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+        
     </div>
     <!-- Video icon -->
-    <div class="video-icon">
-        <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=1aP-TXUpNoU"><i class="fas fa-play"></i></a>
-    </div>
+   
 </div>
 <!-- slider Area End-->
 
 <style>
     .contact-form-container {
-        background-color: #012c3d;
+        background-color:white;
         padding: 30px;
         border-radius: 12px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        width: 100%;
-        height: 400px;
+        width: 90%;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -173,6 +159,7 @@
         border-radius: 4px;
         padding: 10px;
         width: 100%;
+        font-size: 12px;
     }
 
     .contact-form-container .form-check-input {
@@ -207,21 +194,6 @@
 
 
 
-<style>
-    .portfolios {
-        max-width: 1150px;
-        margin: 0 auto;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-
-
-
-    
-</style>
 
         <section class="bg-white pt-3 pb-3  " id="overview">
             <div class="container-xl portfolios">
@@ -229,34 +201,40 @@
                 <div class="col-md-6 col-12 mb-3 mb-md-0">
                   <div class="overview_1l position-relative">
                     <div class="overview_1li">
-                      <img class="imgabout" src="assets/img/hero/0_Ordell interiors0948-Enhanced-NR.jpg" alt="abc" class="img-fluid">
+                      <img class="imgabout" src="assets/img/hero/ordellowners.png" alt="abc" class="img-fluid">
                     </div>
                     <div class="overview_1li1 position-absolute"></div>
                   </div>
                 </div>
                 <div class="col-md-6 col-12">
                   <div class="overview_1r">
-                    <h6 class="fw-bold col_brow font-14 " style="color:#fecb38;">OUR INTERIOR'S OVERVIEW</h6>
-                    <h2 class="lh-base mt-3 " style="color:#1f2b7b; ">HIGH QUALITY LUXURY INTERIORS</h2>
-                    <p class="col_brow fs-5 fw-bold">Many important brands have given us their trust</p>
-                    <p class="text-dark">We Vikas and Rachana are the dynamic duo of opposites, weaving magic in every space we touch. 
+                    <h6 class="fw-bold col_brow font-14 heads">OUR INTERIOR'S OVERVIEW</h6>
+                   
+                    <p class="col_brow fs-5 fw-bold paras pt-3"><i class="fa fa-check-circle me-2 col_brow p-2" style="color:#D9B078;"></i>Many important brands have given us their trust</p>
+                    <p class="text-dark paras2 pb-5">We Vikas and Rachana are the dynamic duo of opposites, weaving magic in every space we touch. 
                       From bold to subtle, classic to contemporary—our styles collide and collaborate, creating interiors that are as unique as our partnership. Our design journey has been a seamless blend of creativity and collaboration. From project to project, we've woven dreams into reality with ease.</p>
-                    <div class="overview_1ri row mt-4">
+                    <div class="overview_1ri row  mb-3">
                       <div class="col-md-6 col-sm-6 col-12 mb-3 mb-sm-0">
                         <div class="overview_1ril">
-                            <h6 class="fw-bold vision"><i class="fa fa-check-circle me-2 col_brow " style="color:#fecb38;" ></i> OUR VISION</h6>
-                            <p class="mt-3 text-dark">At Ordell Interiors, our vision is to revolutionize the world of interior design by creating spaces that inspire, uplift, and reflect the individuality of those who inhabit them.</p>
+                            <div class="d-flex flex-row justify-content-start">
+                                <img class="icon-sizes" src="assets/img/iconsandvectors/vision.png"/>
+                            <h6 class="fw-bold vision heads"> OUR VISION</h6>
+                        </div>
+                            <p class="mt-3 text-dark paras2">At Ordell Interiors, our vision is to revolutionize the world of interior design by creating spaces that inspire, uplift, and reflect the individuality of those who inhabit them.</p>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-12">
                         <div class="overview_1ril">
-                            <h6 class="fw-bold vision"><i class="fa fa-check-circle me-2 col_brow " style="color:#fecb38;"></i> OUR MISSION</h6>
-                            <p class="mt-3 text-dark">Our mission is to bring our clients' dreams to life through a seamless blend of creativity, collaboration, and craftsmanship.</p>
+                            <div class="d-flex flex-row justify-content-start">
+                                <img class="icon-sizes" src="assets/img/iconsandvectors/mission.png"/>
+                            <h6 class="fw-bold vision heads">OUR MISSION</h6>
+                        </div>
+                            <p class="mt-3 text-dark paras2">Our mission is to bring our clients' dreams to life through a seamless blend of creativity, collaboration, and craftsmanship.</p>
                         </div>
                       </div>
                     </div>
                     <!-- <h6 class="mb-0 mt-3 text-uppercase font-14 " style="color:#1f2b7b;"><a class="button_2" href="about.html">More Details</a></h6> -->
-<a href="about.html"><button class="btn btn-dark text-dark">More Details</button></a>
+<a href="about.html"><button class="btn btn-dark text-white">More Details</button></a>
                 </div>
                 </div>
               </div>
@@ -276,16 +254,17 @@
 
         <style>
             /* Basic reset and styles */
-
-    .portfolio {
-        max-width: 1150px;
+            .portfolios {
+        max-width: 1200px;
         margin: 0 auto;
         background-color: #fff;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    
+
+
+   
     .tabs {
         display: flex;
         flex-wrap: wrap; /* Allow tabs to wrap */
@@ -382,20 +361,107 @@
     }
     
         </style>
-<section class="pb-5" style="background-color:white
-;">
+
+
+
+
+<section class="pb-5" style="background-color:white;">
 <div class="row justify-content-center pt-3">
     <div class="cl-xl-7 col-lg-8 col-md-10">
-        <!-- Section Tittle -->
+   
         <div class="section-tittle text-center">
-            <span style="color:#d9b078;" >Our Professional Services</span>
-            <h2 style="color:#012c3d;">Best Interior Services</h2>
+            <!-- <span style="color:#d9b078;" >Our Professional Services</span> -->
+            <h6 class="fw-bold col_brow font-14 heads">MAJOR HOME INTERIORS</h6>
             
         </div>
     </div>
 </div>
     
-    <div class="portfolio mt-5">
+
+
+<div class="container containers">
+    <div class="text-section">
+        <h1 class="text-dark">Living Room</h1>
+        <p>Transform your living space into a modern and stylish area with our expert interior design services.</p>
+        <p>We offer customized solutions to fit your style and budget.</p>
+        <p>Experience comfort and elegance with our designs.</p>
+    </div>
+    <div class="image-section">
+        <img src="assets/img/service-images/1.png" alt="Living Room Image 1" class="active">
+        <img src="assets/img/service-images/2.png" alt="Living Room Image 2">
+        <img src="assets/img/service-images/3.png" alt="Living Room Image 3">
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    const images = document.querySelectorAll('.image-section img');
+    let currentIndex = 0;
+
+    function changeImage() {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % images.length;
+        images[currentIndex].classList.add('active');
+    }
+
+    setInterval(changeImage, 3000);
+</script>
+
+<style>
+    /* body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    } */
+    .containers {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .text-section {
+        width: 45%;
+    }
+    .image-section {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .image-section img {
+        width: 100%;
+        max-width: 400px;
+        position: absolute;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+    .image-section img.active {
+        opacity: 1;
+    }
+</style>
+
+
+  
+
+
+ 
+
+</section>
+
+  <!-- <div class="portfolio mt-5">
         <div class="tabs">
             <button class="tablink active" onclick="openTab('all')">All</button>
             <button class="tablink" onclick="openTab('renovation')">Renovation</button>
@@ -406,7 +472,7 @@
         
         <div id="all" class="tabcontent active" >
             <div class="image-section">
-                <!-- Insert images here for all categories -->
+               
                 <div class="image-item">
                     <img src="assets/img/service-images/1.png" alt="Residential Image 2">
                 </div>
@@ -416,10 +482,10 @@
                 <div class="image-item">
                     <img src="assets/img/service-images/3.png" alt="Residential Image 2">
                 </div>
-                <!-- Add more images as needed -->
+               
             </div>
             <div class="image-section">
-                <!-- Insert images here for all categories -->
+                
                 <div class="image-item">
                     <img src="assets/img/service-images/4.png" alt="Residential Image 2">
                 </div>
@@ -441,10 +507,10 @@
         <div id="renovation" class="tabcontent">
             
 
-                <!-- Add more images as needed -->
+            
           
             <div class="image-section">
-                <!-- Insert images here for renovation -->
+               
                 <div class="image-item">
                     <img src="assets/img/service-images/7.png" alt="Renovation Image 1">
                 </div> 
@@ -457,7 +523,7 @@
                 </div>
 
 
-                <!-- Add more images as needed -->
+              
             </div>
         </div>
     
@@ -465,7 +531,7 @@
         <div id="commercial" class="tabcontent">
            
             <div class="image-section">
-                <!-- Insert images here for commercial -->
+               
                 <div class="image-item">
                     <img src="assets/img/service-images/1.png" alt="Commercial Image 1">
                 </div>
@@ -484,7 +550,7 @@
         <div id="residential" class="tabcontent">
             
             <div class="image-section">
-                <!-- Insert images here for residential -->
+               
                 <div class="image-item">
                     <img src="assets/img/service-images/4.png" alt="Residential Image 1">
                 </div>
@@ -497,15 +563,9 @@
                 </div>
             </div>
             </div>
-        </div>
-
-
-    </div>
-    </div>
-
-</section>
+        </div> -->
     
-    <script>
+    <!-- <script>
     function openTab(tabName) {
         var i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabcontent");
@@ -520,14 +580,14 @@
         }
         event.currentTarget.classList.add("active");
     
-        // Update underline position
+   
         var underline = document.querySelector('.tab-underline');
         var activeButton = document.querySelector('.tablink.active');
         underline.style.left = activeButton.offsetLeft + 'px';
         underline.style.width = activeButton.offsetWidth + 'px';
     }
     
-    // Set initial underline position
+ 
     document.addEventListener("DOMContentLoaded", function() {
         var underline = document.querySelector('.tab-underline');
         var activeButton = document.querySelector('.tablink.active');
@@ -535,7 +595,7 @@
         underline.style.width = activeButton.offsetWidth + 'px';
     });
     
-    // Image hover animation
+  
     const imageItems = document.querySelectorAll('.image-item');
     imageItems.forEach(item => {
         item.addEventListener('mouseover', () => {
@@ -546,7 +606,7 @@
             item.querySelector('img').classList.remove('image-hover');
         });
     });
-    </script>
+    </script> -->
 
 
 

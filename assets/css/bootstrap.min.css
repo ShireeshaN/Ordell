@@ -70,13 +70,14 @@ section {
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Roboto";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff
+    background-color: #fff;
+    width:100%;
 }
 
 [tabindex="-1"]:focus {
@@ -249,7 +250,10 @@ th {
 
 label {
     display: inline-block;
-    margin-bottom: .5rem
+    margin-bottom: .5rem;
+    font-size: 13px;
+    font-family: "Roboto";
+    font-weight: bold;
 }
 
 button {
@@ -1916,7 +1920,8 @@ pre code {
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    
 }
 
 @media screen and (prefers-reduced-motion:reduce) {
@@ -2043,11 +2048,13 @@ select.form-control[size] {
 }
 
 textarea.form-control {
-    height: auto
+    height: auto;
+    
 }
 
 .form-group {
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+    
 }
 
 .form-text {
