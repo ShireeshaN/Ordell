@@ -1,86 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interior Services Steps</title>
+    <title>Interior Services Process</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <style>
         .service-step {
-            text-align: center;
-            margin: 10px;
-            padding: 20px;
-            border: 1px solid #e3e3e3;
-            border-radius: 10px;
-            background-color: #f9f9f9;
+            margin-bottom: 40px;
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-            flex: 1;
         }
+
         .service-step img {
-            max-width: 120px; /* Increased the image size */
-            margin-bottom: 15px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
         }
-        .service-step:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+        .service-step .text-content {
+            padding: 20px;
         }
+
         .service-step h4 {
             color: #1f2b7b;
             margin-bottom: 10px;
         }
+
         .service-step p {
             color: #333;
         }
-        .services-container {
-            display: flex;
-            justify-content: space-around;
-            align-items: stretch;
-            flex-wrap: wrap;
-        }
-        @media (max-width: 576px) {
-            .service-step {
-                margin: 5px;
-                padding: 15px;
-            }
+
+        .service-step:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <h2 class="text-center my-5" style="color:#1f2b7b;">Our Interior Design Process</h2>
-        <div class="services-container">
-            <div class="service-step" data-aos="fade-up">
-                <img src="https://via.placeholder.com/120" alt="Initial Consultation">
-                <h4>Consultation</h4>
-               
+        <div class="row service-step" data-aos="fade-right">
+            <div class="col-lg-6">
+                <img src="https://via.placeholder.com/300" alt="Initial Consultation">
             </div>
-            <div class="service-step" data-aos="fade-up" data-aos-delay="100">
-                <img src="https://via.placeholder.com/120" alt="Concept Development">
-                <h4>Concept</h4>
-               
+            <div class="col-lg-6 text-content">
+                <h4>Initial Client Consultation</h4>
+                <p>We start with a detailed discussion to understand your vision and requirements.</p>
             </div>
-            <div class="service-step" data-aos="fade-up" data-aos-delay="200">
-                <img src="https://via.placeholder.com/120" alt="Space Planning">
-                <h4>Planning</h4>
-               
+        </div>
+        <div class="row service-step" data-aos="fade-left">
+            <div class="col-lg-6">
+                <img src="https://via.placeholder.com/300" alt="Concept Development">
             </div>
-            <div class="service-step" data-aos="fade-up" data-aos-delay="300">
-                <img src="https://via.placeholder.com/120" alt="Material Selection">
-                <h4>Materials</h4>
-                
+            <div class="col-lg-6 text-content">
+                <h4>Concept Development and Theming</h4>
+                <p>Our designers create initial concepts and mood boards to capture your style.</p>
             </div>
-            <div class="service-step" data-aos="fade-up" data-aos-delay="400">
-                <img src="https://via.placeholder.com/120" alt="Project Execution">
-                <h4>Execution</h4>
-                
+        </div>
+        <div class="row service-step" data-aos="fade-right">
+            <div class="col-lg-6">
+                <img src="https://via.placeholder.com/300" alt="Space Planning">
+            </div>
+            <div class="col-lg-6 text-content">
+                <h4>Space Planning and Layout Design</h4>
+                <p>We develop detailed layouts to maximize functionality and aesthetic appeal.</p>
+            </div>
+        </div>
+        <div class="row service-step" data-aos="fade-left">
+            <div class="col-lg-6">
+                <img src="https://via.placeholder.com/300" alt="Material Selection">
+            </div>
+            <div class="col-lg-6 text-content">
+                <h4>Material and Finish Selection</h4>
+                <p>Our team helps you choose the best materials and finishes for your project.</p>
+            </div>
+        </div>
+        <div class="row service-step" data-aos="fade-right">
+            <div class="col-lg-6">
+                <img src="https://via.placeholder.com/300" alt="Project Execution">
+            </div>
+            <div class="col-lg-6 text-content">
+                <h4>Project Execution and Management</h4>
+                <p>We manage the entire project to ensure timely and flawless execution.</p>
             </div>
         </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <script>
         AOS.init();
     </script>
 </body>
+
 </html>

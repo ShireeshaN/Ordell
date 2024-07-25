@@ -9526,6 +9526,55 @@ del {
 
 
 
+.service-step {
+    margin-bottom: 40px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-step img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service-step .text-content {
+    padding: 20px;
+}
+
+.service-step h4 {
+    color: #1f2b7b;
+    margin-bottom: 10px;
+}
+
+.service-step p {
+    color: #333;
+}
+
+.service-step:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.img-size{
+    width:300px;
+    height:300px;
+    
+    
+}
+
+.ord-h{
+    color: #000000;
+    font-weight: bold;
+}
+.ord-p{
+    color:#000000;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+
+
 
 
 
