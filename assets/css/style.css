@@ -5298,7 +5298,7 @@ height:700px;
 /* line 89, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 
 .footer-area .footer-bottom .footer-copy-right p {
-    color: #bdbdbd;
+    color: white;
     font-weight: 300;
     font-size: 16px;
     line-height: 2;
@@ -5315,7 +5315,8 @@ height:700px;
 /* line 98, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 
 .footer-area .footer-bottom .footer-copy-right p a {
-    color: #BC996B;
+    color: #000000;
+    font-weight: bold;
 }
 
 /* line 110, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5357,7 +5358,7 @@ height:700px;
     content: "";
     width: 43px;
     height: 2px;
-    background: #3b3647;
+    background: white;
     top: 50%;
     transform: translateY(-50%);
     right: -56px;
@@ -5390,8 +5391,8 @@ height:700px;
 /* line 157, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 
 .footer-area .footer-social a {
-    color: #bdbdbd;
-    font-size: 14px;
+    color: #fff;
+    font-size: 25px;
     text-align: center;
     margin-left: 16px;
     font-family: sans-serif;
