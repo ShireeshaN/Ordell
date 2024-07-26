@@ -3176,10 +3176,10 @@ hero-btn {
 
 /* line 789, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
-.section-padding30 {
-    padding-top: 195px;
+/* .section-padding30 {
+    padding-top: 10px;
     padding-bottom: 170px;
-}
+} */
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     /* line 789, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -3192,7 +3192,7 @@ hero-btn {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     /* line 789, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
     .section-padding30 {
-        padding-top: 150px;
+        padding-top: 10px;
         padding-bottom: 110px;
     }
 }
@@ -4889,7 +4889,7 @@ height:700px;
     left: -47px;
     top: 50%;
     transform: translateY(-50%);
-    background: #ff1313;
+    background: #D9B078;
 }
 
 /* line 33, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_team.scss */
@@ -9744,3 +9744,4 @@ del {
     margin-right: 10px; /* Adjust spacing between icon and text */
     font-size: 1.2em; /* Adjust size of the icon */
 }
+
