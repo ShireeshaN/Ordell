@@ -9209,6 +9209,10 @@ del {
     height:150px;
     width:200px;
 }
+.imgsizesfooter{
+    height:150px;
+    width:200px;
+}
 
 
 /*********************choose****************/
@@ -9515,6 +9519,13 @@ del {
     font-size: 14px;
     text-align: justify;
     font-weight: lighter;
+}
+.paras3{
+    color:black;
+    font-weight: 600;
+    font-family: "Roboto";
+    font-size:15px ;
+    text-align: justify;
 }
 .icon-sizes{
     height:40px;
