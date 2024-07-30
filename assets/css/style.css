@@ -9746,3 +9746,19 @@ del {
     font-size: 1.2em; /* Adjust size of the icon */
 }
 
+
+.career-img{
+    width:100px;
+    height:100px;
+    text-align: center;
+}
+.career-head{
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.bg1{
+    background-color: grey;
+}
