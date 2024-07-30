@@ -758,7 +758,7 @@ hero-btn {
     position: absolute;
     left: 0;
     top: 0;
-    width: 101%;
+    width: 100%;
     height: 101%;
     background: #D9B078;;
     z-index: -1;
@@ -4225,59 +4225,17 @@ height:700px;
 
 /* line 211, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 
-.video-icon a {
-    background: #BC996B;
-    color: #fff;
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    text-align: center;
-    line-height: 80px;
-    border-radius: 50%;
-}
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    /* line 211, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
-    .video-icon a {
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
-    }
-}
 
-@media (max-width: 575px) {
-    /* line 211, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
-    .video-icon a {
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
-    }
-}
+
 
 /* line 232, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 
-.video-icon a.btn-icon {
-    position: relative;
-    /* Animations */
-    /* End Animated */
-}
+
 
 /* line 234, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 
-.video-icon a.btn-icon::before {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    bottom: -2px;
-    right: -2px;
-    border-radius: inherit;
-    border: 1px solid #D9B078;;
-    -webkit-animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
-    animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
-    font-family:  sans-serif;
-}
+
 
 @-webkit-keyframes btnIconRipple {
     0% {
@@ -4302,10 +4260,6 @@ height:700px;
 
 /* line 266, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 
-.video-icon a.btn-icon:hover {
-    background: #fff;
-    color: #D9B078;;
-}
 
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
 
@@ -5155,6 +5109,7 @@ height:700px;
 
 .footer-area {
     background: #d9b078;
+  
  
 }
 
@@ -5291,8 +5246,9 @@ height:700px;
 /* line 84, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 
 .footer-area .footer-bottom {
-    padding-bottom: 50px;
+ 
     padding-top: 30px;
+  
 }
 
 /* line 89, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -5302,8 +5258,8 @@ height:700px;
     font-weight: 300;
     font-size: 16px;
     line-height: 2;
-    margin-bottom: 12px;
-    font-family: Gilroy;
+  
+    font-family: "Roboto";
 }
 
 /* line 95, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -9209,6 +9165,10 @@ del {
     height:150px;
     width:200px;
 }
+.imgsizesfooter{
+    height:150px;
+    width:200px;
+}
 
 
 /*********************choose****************/
@@ -9516,6 +9476,13 @@ del {
     text-align: justify;
     font-weight: lighter;
 }
+.paras3{
+    color:black;
+    font-weight: 600;
+    font-family: "Roboto";
+    font-size:15px ;
+    text-align: justify;
+}
 .icon-sizes{
     height:40px;
     width:40px;
@@ -9552,8 +9519,8 @@ del {
 }
 
 .img-size{
-    width:300px;
-    height:300px;
+    width:100%;
+    height:400px;
     
     
 }
@@ -9564,13 +9531,13 @@ del {
 }
 .ord-p{
     color:#000000;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 17px;
 
 }
 
 .img-li{
-    height: 50px;
+    height: 40px;
     width:50px;
 }
 
