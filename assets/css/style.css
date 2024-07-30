@@ -9494,6 +9494,13 @@ del {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+@media (max-width:992px) {
+    .mainhead{
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
 .service-step img {
     width: 100%;
     height: auto;
@@ -9711,6 +9718,15 @@ del {
     color: #000; /* Change this to your desired color */
     margin-right: 10px; /* Adjust spacing between icon and text */
     font-size: 1.2em; /* Adjust size of the icon */
+}
+
+.portfolios {
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 
