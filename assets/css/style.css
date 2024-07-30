@@ -9494,6 +9494,13 @@ del {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+@media (max-width:992px) {
+    .mainhead{
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
 .service-step img {
     width: 100%;
     height: auto;
