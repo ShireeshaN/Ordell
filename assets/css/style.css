@@ -9494,6 +9494,13 @@ del {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+@media (max-width:992px) {
+    .mainhead{
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
 .service-step img {
     width: 100%;
     height: auto;
@@ -9722,3 +9729,19 @@ del {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
+.career-img{
+    width:100px;
+    height:100px;
+    text-align: center;
+}
+.career-head{
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.bg1{
+    background-color: grey;
+}
