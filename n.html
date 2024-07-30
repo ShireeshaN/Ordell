@@ -3,40 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Section</title>
+    <title>Multiple Sections with Column-Wise Layout</title>
     <style>
-        .container {
-            display: flex;
-            flex-wrap: wrap;
+        body {
+            font-family: Arial, sans-serif;
         }
-        .left-side, .right-side {
-            flex: 1;
+        .container2 {
             padding: 20px;
         }
-        .left-side {
-            order: 1;
+        .item {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
         }
-        .right-side {
-            order: 2;
+        .heading-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .icons {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #000; /* Icon background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff; /* Icon color */
+            margin-right: 10px;
+        }
+        .arrow-content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+            gap: 20px; /* Space between items */
+        }
+        .arrow-group {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        }
+        .arrow {
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 10px;
+            color: #000; /* Arrow color */
+        }
+        .arrow-text {
+            font-size: 16px;
         }
         @media (max-width: 768px) {
-            .left-side, .right-side {
-                flex: 100%;
-                max-width: 100%;
-                order: initial;
+            .arrow-content {
+                grid-template-columns: 1fr; /* Single column layout on small screens */
+            }
+            .arrow-group {
+                flex-direction: row;
+                margin-bottom: 10px;
+                text-align: center; /* Center text for small screens */
+            }
+            .arrow {
+                margin-bottom: 5px;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="left-side">
-            <h2>Heading</h2>
-            <p>This is a paragraph below the heading.</p>
+    <section>
+        <div class="container2">
+            <!-- First Section -->
+            <div class="item">
+                <div class="heading-content">
+                    <div class="icons">★</div>
+                    <h6 class="renohead">Health benefits</h6>
+                </div>
+                <div class="arrow-content">
+                    <div class="arrow-group">
+                        <span class="arrow">→</span>
+                        <span class="arrow-text">Benefit 1</span>
+                    </div>
+                    <div class="arrow-group">
+                        <span class="arrow">→</span>
+                        <span class="arrow-text">Benefit 2</span>
+                    </div>
+                    <div class="arrow-group">
+                        <span class="arrow">→</span>
+                        <span class="arrow-text">Benefit 3</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Second Section -->
+            <div class="item">
+                <div class="heading-content">
+                    <div class="icons">★</div>
+                    <h6 class="renohead">Additional benefits</h6>
+                </div>
+                <div class="arrow-content">
+                    <div class="arrow-group">
+                        <span class="arrow">→</span>
+                        <span class="arrow-text">Benefit 4</span>
+                    </div>
+                    <div class="arrow-group">
+                        <span class="arrow">→</span>
+                        <span class="arrow-text">Benefit 5</span>
+                    </div>
+                    <div class="arrow-group">
+                        <span class="arrow">→</span>
+                        <span class="arrow-text">Benefit 6</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more sections as needed -->
         </div>
-        <div class="right-side">
-            <img src="assets/img/iconsandvectors/rightimgs.png" alt="Image" style="width: 100%;">
-        </div>
-    </div>
+    </section>
 </body>
 </html>
